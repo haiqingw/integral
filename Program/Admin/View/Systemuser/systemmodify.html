@@ -1,0 +1,151 @@
+<div class="pageContent">
+	<form method="post" action="{:U('systemmodifyfunction')}" class="pageForm required-validate" onsubmit="return validateCallback(this, navTabAjaxDone);">
+		<input type="hidden" name="uid" value="{$uInfo['usertable_ID']}">
+		<div class="pageFormContent" layoutH="55">
+			<p style="clear: both;">
+				<label>用户账号：</label>
+				<input name="lrUserName" class="required" type="text" size="30" value="{$uInfo['usertable_Name']}" alt="请输入账号名称" />
+			</p>
+			<p style="clear: both;width: 100%">
+				<font style="margin-left: 130px;">提示：用户账号作为登陆使用</font>
+			</p>
+			<p style="clear: both;">
+				<label>公司名称：</label>
+				<input name="companyName" class="required" type="text" size="30" value="{$uInfo['companyName']}" alt="请输入公司名称" />
+			</p>
+			<p style="clear: both;">
+				<label>所属角色：</label>
+				<select name="roleID" class="required combox">
+					<option value="">请选择所属角色</option>
+					<foreach name="roleInfo" item="v">
+						<option value="{$v.role_id}" <if condition="$uInfo['usertable_Role_id'] eq $v['role_id']">selected="selected"</if>>{$v.role_name}</option>
+					</foreach>
+				</select>
+			</p>
+			<p style="clear: both;">
+				<label>极光AppKey：</label>
+				<input class="text required" name="jpush_appkey" type="text" size="30" value="{$uInfo['jpush_appkey']}" />
+			</p>
+			<p style="clear: both;">
+				<label>极光Secret：</label>
+				<input class="text required" name="jpush_secret" type="text" size="30" value="{$uInfo['jpush_secret']}" />
+			</p>
+			<p style="clear: both;width:100%">
+				<php>$pauth = explode(",",$uInfo['agent_prefix']);</php>
+				<label>产品权限：</label>
+				<volist name="cclist" id="vo">
+					<label style="width:auto;"><input type="checkbox" name="agent_prefix[]" value="{$vo.id}" <if condition="in_array($vo['id'],$pauth)">checked</if>/>{$vo.brandName}-{$vo.productName}</label>
+				</volist>
+			</p>
+			<p style="clear: both;">
+				<label>联系手机：</label>
+				<input class="tel" name="lrUserPhone" type="text" size="30" value="{$uInfo['usertable_Phone']}" />
+			</p>
+			<p style="clear: both;">
+				<label>联系邮箱：</label>
+				<input class="email" name="lrUserEmail" type="text" size="30" value="{$uInfo['usertable_Email']}" />
+			</p>
+			<!--<p>-->
+			<!--<label>执照到期日期：</label>-->
+			<!--<input type="text" name="endDate" class="date" size="30" /><a class="inputDateButton" href="javascript:;">选择</a>-->
+			<!--</p>-->
+			<!--<p>-->
+			<!--<label>注册资金：</label>-->
+			<!--<select name="capital" class="required combox">-->
+			<!--<option value="">请选择</option>-->
+			<!--<option value="10">10</option>-->
+			<!--<option value="50" selected>50</option>-->
+			<!--<option value="100">100</option>-->
+			<!--</select>-->
+			<!--<span class="unit">万元</span>-->
+			<!--</p>-->
+			<!--<p>-->
+			<!--<label>注册类型：</label>-->
+			<!--<input type="text" size="30" />-->
+			<!--</p>-->
+			<!--<p>-->
+			<!--<label>注册地址：</label>-->
+			<!--<input type="text" size="30" />-->
+			<!--</p>-->
+			<!--<p>-->
+			<!--<label>所属行业：</label>-->
+			<!--<input type="text" size="30" />-->
+			<!--</p>-->
+			<!--<p>-->
+			<!--<label>组织机构代码：</label>-->
+			<!--<input type="text" size="30" />-->
+			<!--</p>-->
+			<!--<p>-->
+			<!--<label>国税登记证号码：</label>-->
+			<!--<input type="text" size="30" />-->
+			<!--</p>-->
+			<!--<p>-->
+			<!--<label>地税登记证号码：</label>-->
+			<!--<input type="text" size="30" />-->
+			<!--</p>-->
+			<!--<p>-->
+			<!--<label>贷款卡编码：</label>-->
+			<!--<input type="text" size="30" />-->
+			<!--</p>-->
+			<!--<p>-->
+			<!--<label>法人姓名：</label>-->
+			<!--<input type="text" size="30" />-->
+			<!--</p>-->
+			<!--<p>-->
+			<!--<label>法人代表身份证号：</label>-->
+			<!--<input type="text" size="30" />-->
+			<!--</p>-->
+			<!--<p>-->
+			<!--<label>身份证到期日期：</label>-->
+			<!--<input type="text" size="30" />-->
+			<!--</p>-->
+			<!--<p>-->
+			<!--<label>其他证件及号码：</label>-->
+			<!--<input type="text" size="30" />-->
+			<!--</p>-->
+			<!--<p>-->
+			<!--<label>曾用名称：</label>-->
+			<!--<input type="text" size="30" />-->
+			<!--</p>-->
+			<!--<p>-->
+			<!--<label>首次贷款日期：</label>-->
+			<!--<input readonly="readonly" type="text" size="30" />-->
+			<!--</p>-->
+			<!--<div class="divider"></div>-->
+			<!--<p>-->
+			<!--<label>建档日期：</label>-->
+			<!--<input readonly="readonly" type="text" size="30" />-->
+			<!--</p>-->
+			<!--<p>-->
+			<!--<label>管户经理：</label>-->
+			<!--<input readonly="readonly" type="text" size="30" />-->
+			<!--</p>-->
+			<!--<p>-->
+			<!--<label>最新修改时间：</label>-->
+			<!--<input readonly="readonly" type="text" size="30" />-->
+			<!--</p>-->
+			<!--<p>-->
+			<!--<label>最新修改人员：</label>-->
+			<!--<input readonly="readonly" type="text" size="30" />-->
+			<!--</p>-->
+		</div>
+		<div class="formBar">
+			<ul style="float: left; margin-left: 123px;">
+				<li style="margin-right: 20px;">
+					<div class="buttonActive">
+						<div class="buttonContent">
+							<button type="submit">保存</button>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="button">
+						<div class="buttonContent">
+							<button type="button" class="close">取消</button>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</form>
+</div>

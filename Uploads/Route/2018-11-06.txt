@@ -1,0 +1,110 @@
+array (
+  'requestType' => 'operating',
+  'requestKeywords' => 'drawcash',
+  'platformID' => 203,
+  'userID' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'userPhone' => 'MsTjMfzwNpToQr4wNezjIcwlOaDmYlO0O0Om',
+  'money' => 10,
+)
+array (
+  'requestType' => 'operating',
+  'requestKeywords' => 'drawcash',
+  'platformID' => 203,
+  'userID' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'userPhone' => 'MsTjMfzwNpToQr4wNezjIcwlOaDmYlO0O0Om',
+  'money' => 10,
+)
+array (
+  'requestType' => 'operating',
+  'requestKeywords' => 'drawcash',
+  'platformID' => 203,
+  'userID' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'userPhone' => 'MsTjMfzwNpToQr4wNezjIcwlOaDmYlO0O0Om',
+  'money' => 10,
+)
+array (
+  'requestType' => 'operating',
+  'requestKeywords' => 'drawcash',
+  'platformID' => 203,
+  'userID' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'userPhone' => 'MsTjMfzwNpToQr4wNezjIcwlOaDmYlO0O0Om',
+  'money' => 10,
+)
+array (
+  'requestType' => 'operating',
+  'requestKeywords' => 'drawcash',
+  'platformID' => 203,
+  'userID' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'userPhone' => 'MsTjMfzwNpToQr4wNezjIcwlOaDmYlO0O0Om',
+  'money' => 10,
+)
+array (
+  'requestType' => 'operating',
+  'requestKeywords' => 'drawcash',
+  'platformID' => 203,
+  'userID' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'userPhone' => 'MsTjMfzwNpToQr4wNezjIcwlOaDmYlO0O0Om',
+  'money' => 10,
+)
+array (
+  'requestType' => 'onlineorder',
+  'requestKeywords' => 'order',
+  'platformID' => 203,
+  'userID' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'userPhone' => 'MsTjMfzwNpToQr4wNezjIcwlOaDmYlO0O0Om',
+  'orderinfo' => '[{"proid":1,"nums":10},{"proid":2,"nums":5}]',
+  'productinfo' => '[{"proid":1,"money":1000},{"proid":2,"money":500}]',
+)
+array (
+  'requestType' => 'onlineorder',
+  'requestKeywords' => 'order',
+  'platformID' => 203,
+  'userID' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'userPhone' => 'MsTjMfzwNpToQr4wNezjIcwlOaDmYlO0O0Om',
+  'orderinfo' => '[{"proid":1,"nums":10},{"proid":2,"nums":5}]',
+  'productinfo' => '[{"proid":1,"money":1000},{"proid":2,"money":500}]',
+)
+array (
+  'requestType' => 'onlineorder',
+  'requestKeywords' => 'order',
+  'platformID' => 203,
+  'userID' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'userPhone' => 'MsTjMfzwNpToQr4wNezjIcwlOaDmYlO0O0Om',
+  'orderinfo' => '[{"proid":1,"nums":10},{"proid":2,"nums":5}]',
+  'productinfo' => '[{"proid":1,"money":1000},{"proid":2,"money":500}]',
+  'money' => 1500,
+  'sid' => 1,
+)
+array (
+  'requestType' => 'onlineorder',
+  'requestKeywords' => 'order',
+  'platformID' => 203,
+  'userID' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'userPhone' => 'MsTjMfzwNpToQr4wNezjIcwlOaDmYlO0O0Om',
+  'orderinfo' => '[{"proid":1,"nums":10},{"proid":2,"nums":5}]',
+  'productinfo' => '[{"proid":1,"money":1000},{"proid":2,"money":500}]',
+  'money' => 1500,
+  'sid' => 1,
+)
+array (
+  'requestType' => 'onlineorder',
+  'requestKeywords' => 'order',
+  'platformID' => 203,
+  'userID' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'userPhone' => 'MsTjMfzwNpToQr4wNezjIcwlOaDmYlO0O0Om',
+  'orderinfo' => '[{"proid":1,"nums":10},{"proid":2,"nums":5}]',
+  'productinfo' => '[{"proid":1,"money":1000},{"proid":2,"money":500}]',
+  'money' => 1500,
+  'sid' => 1,
+)
+array (
+  'requestType' => 'onlineorder',
+  'requestKeywords' => 'order',
+  'platformID' => 203,
+  'userID' => 'c4ca4238a0b923820dcc509a6f75849b',
+  'userPhone' => 'MsTjMfzwNpToQr4wNezjIcwlOaDmYlO0O0Om',
+  'orderinfo' => '[{"proid":1,"nums":10},{"proid":2,"nums":5}]',
+  'productinfo' => '[{"proid":1,"money":1000},{"proid":2,"money":500}]',
+  'money' => 1500,
+  'sid' => 1,
+)

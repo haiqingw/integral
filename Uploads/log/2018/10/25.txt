@@ -1,0 +1,4 @@
+[Success][2018-10-25 09:12:18]账号【system】帐号验证通过！[Admin/Login/logincheck]
+[Success][2018-10-25 09:12:37]账号【ceshiadmin】帐号验证通过！[Admin/Login/logincheck]
+[Success][2018-10-25 10:44:46]账号【ceshiadmin】帐号验证通过！[Admin/Login/logincheck]
+[Success][2018-10-25 15:27:18]用户名为：System于 2018-10-25 15:27:18 IP为： 192.168.31.243添加权限名称为 在线订单保存成功[Admin/Auth/authaddfunction]

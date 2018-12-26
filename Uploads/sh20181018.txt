@@ -1,0 +1,21 @@
+[null||||array (
+  'bid' => '2921',
+  'ordernum' => 'BSYTX2018101727738',
+  'money' => '8.20',
+  'bankid' => '877',
+)][null||||array (
+  'bid' => '2921',
+  'ordernum' => 'BSYTX2018101727738',
+  'money' => '8.20',
+  'bankid' => '877',
+)][null||||array (
+  'bid' => '2921',
+  'ordernum' => 'BSYTX2018101771671',
+  'money' => '10.96',
+  'bankid' => '877',
+)][null||||array (
+  'bid' => '2921',
+  'ordernum' => 'BSYTX2018101727738',
+  'money' => '8.20',
+  'bankid' => '877',
+)]

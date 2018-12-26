@@ -1,0 +1,5 @@
+[Success][2018-10-30 09:28:44]账号【system】帐号验证通过！[Admin/Login/logincheck]
+[Success][2018-10-30 10:18:20]用户名为：System于 2018-10-30 10:18:20 IP为： 192.168.31.243账号名称为：lrkj状态：添加成功[Admin/Systemuser/systemaddfunction]
+[Success][2018-10-30 13:47:47]账号【ceshiadmin】帐号验证通过！[Admin/Login/logincheck]
+[Success][2018-10-30 15:51:25]用户名为：System于 2018-10-30 15:51:25 IP为： 192.168.31.243更改的账号名称为：ceshiadmin状态：更改成功[Admin/Systemuser/systemmodifyfunction]
+[Success][2018-10-30 15:56:31]账号【ceshiadmin】帐号验证通过！[Admin/Login/logincheck]

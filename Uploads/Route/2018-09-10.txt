@@ -1,0 +1,65 @@
+array (
+  'requestType' => 'agent',
+  'requestKeywords' => 'backyards',
+  'platformID' => '175',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+)
+array (
+  'requestType' => 'agent',
+  'requestKeywords' => 'backyards',
+  'platformID' => '175',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'childID' => 560,
+  'machineID' => 464,
+  'terminal' => '01180425075802578717',
+)
+array (
+  'requestType' => 'agent',
+  'requestKeywords' => 'backyards',
+  'platformID' => '175',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'childID' => 560,
+  'machineID' => 464,
+  'terminal' => '01180425075802578717',
+)
+array (
+  'requestType' => 'agent',
+  'requestKeywords' => 'backyards',
+  'platformID' => '175',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'childID' => 560,
+  'machineID' => 464,
+  'terminal' => '01180425075802578717',
+)
+array (
+  'requestType' => 'agent',
+  'requestKeywords' => 'terminal',
+  'platformID' => '175',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+)
+array (
+  'requestType' => 'agent',
+  'requestKeywords' => 'terminal',
+  'platformID' => '175',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+)
+array (
+  'requestType' => 'agent',
+  'requestKeywords' => 'terminal',
+  'platformID' => '175',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+)
+array (
+  'requestType' => 'agent',
+  'requestKeywords' => 'terminal',
+  'platformID' => '175',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+)

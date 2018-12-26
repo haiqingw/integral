@@ -1,0 +1,3 @@
+[Success][2018-03-21 09:15:32]账号【system】帐号验证通过！[Admin/Login/logincheck]
+[Success][2018-03-21 10:29:48]用户名为：System于 2018-03-21 10:29:48 IP为： 192.168.1.243添加权限名称为 推广图片保存成功[Admin/Auth/authaddfunction]
+[Success][2018-03-21 17:19:09]用户名为：System于 2018-03-21 17:19:09 IP为： 192.168.1.243添加权限名称为 评论列表保存成功[Admin/Auth/authaddfunction]

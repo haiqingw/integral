@@ -1,0 +1,42 @@
+<!--底部 导航 开始-->
+<div style="height: 50px;"></div>
+<div class="footer_menu line_top">
+	<a href="{:U('Center/index')}" class="line_right">首页</a> 
+	<a href="javascript:;" class="myBtn">快捷菜单</a>
+	<div class="footerMenuLevel">
+		<a href="{:U('bindCard')}">绑定结算卡</a> 
+		<a href="{:U('CommissionRecord')}" class="line_top">佣金记录</a> 
+		<a href="{:U('withdraw')}" class="line_top">佣金提现</a>
+		<a href="{:U('myQrcode')}" class="line_top">我的推广码</a>
+		<a href="javascript:isLog()" class="line_top">退出登录</a>
+	</div>
+</div>
+<!--底部 导航 结束-->
+<script>
+	$(function() {
+		//底部导航
+		$('.myBtn').click(function() {
+			if ($('.footerMenuLevel').is(':hidden')) {
+				$('.overlazy').show();
+				$('.footerMenuLevel').slideDown();
+			} else {
+				$('.overlazy').hide();
+				$('.footerMenuLevel').slideUp();
+			}
+		})
+		$('body').delegate('.overlazy', 'click', function() {
+			$('.overlazy').hide();
+			$('.footerMenuLevel').slideUp();
+		})
+	});
+	function isLog() {
+		layer.open({
+			content : '您确定要退出登录吗？',
+			btn : [ '取消', '退出' ],
+			skin : 'footer',
+			no : function(index) {
+				window.location = "{:U('Center/logout')}";
+			}
+		});
+	}
+</script>

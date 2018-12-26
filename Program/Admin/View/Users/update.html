@@ -1,0 +1,58 @@
+<div class="pageContent">
+    <form method="post" id="myform" action="{:U('Class/updateFunction')}" class="pageForm required-validate" onsubmit="return iframeCallback(this);" target="callbackframe"  enctype="multipart/form-data">
+        <div class="pageFormContent" layoutH="56">
+            <div class="unit">
+                <input name="id" value="{$data.id}" type="hidden" />
+                <fieldset>
+                    <legend>商品分类修改</legend>
+                    <dl class="nowrap">
+                        <dt>分类名称</dt>
+                        <dd>
+                            <input type="text" name="name" class="required" value="{$data['name']}" placeholder="请填写分类名称" />
+                        </dd>
+                    </dl>
+                    <dl class="nowrap">
+                        <dt>分类图片</dt>
+                        <dd>
+                            <input name="photo" type="file" />
+                            <p style="clear: both; width: 100%">
+                                <font style="margin-left: 130px; color: #FF0000;">提示:图片尺寸为237*70</font>
+                            </p>
+                        </dd>
+                    </dl>
+                    <dl class="nowrap">
+                        <dt>分类图片预览</dt>
+                        <dd>
+                            <if condition="!empty($data['photo'])"> <img style="width: 150px; height: 150px;" src="{$data['photo']}" />
+                                <else /> 未上传 </if>
+                        </dd>
+                    </dl>
+                    <dl class="nowrap">
+                        <dt>分类排序</dt>
+                        <dd>
+                            <input type="text" name="sort" value="{$data['sort']}" placeholder="请填写排序" />
+                        </dd>
+                    </dl>
+                </fieldset>
+            </div>
+        </div>
+        <div class="formBar">
+            <ul style="float:left">
+                <li style="margin-left: 125px; margin-right: 35px">
+                    <div class="buttonActive">
+                        <div class="buttonContent">
+                            <button type="submit">保存</button>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="button">
+                        <div class="buttonContent">
+                            <button type="button" class="close">关闭</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </form>
+</div>

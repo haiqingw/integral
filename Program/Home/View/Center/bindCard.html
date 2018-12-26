@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,initial-scale=1.0,width=device-width" />
+		<meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+		<title>{:C('webTitle')}</title>
+		<link rel="stylesheet" type="text/css" href="{:C('webPublic')}css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="{:C('webPublic')}css/common.css" />
+		<link rel="stylesheet" type="text/css" href="{:C('webPublic')}css/style.css" />
+		<script type="text/javascript" src="{:C('webPublic')}js/jquery-1.8.3.min.js"></script>
+		<script src="{:C('webPublic')}js/HomeCheck.js" type="text/javascript" charset="utf-8"></script>
+		<script src="{:C('webPublic')}js/layer.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<!--header start-->
+		<header class="subpageHeader line_bottom">
+			<a class="aBackBtn" href="javascript:history.go(-1)"><img src="{:C('webPublic')}images/backIcon.png" /></a>绑定结算卡<!-- <a href="javascript:;" class="addBtn">更换结算卡</a> --></header>
+		<!--header end-->
+		<!--subpage start-->
+		<section class="subpageMain">
+			<div class="changeBankCardContainer">
+				<if condition="$cardStatus['status'] eq 1">
+				<div class="noticeTip">
+					<img src="{:C('webPublic')}images/noticeIcon.png" /> 您已绑定银行卡信息，如需更换请致电客服<a href="tel:{:C('webLinkTel')}">{:C('webLinkTel')}</a>
+				</div>
+				<div class="changeBankCardMain">
+					<div class="FormsGroup bindCardFormGroup">
+						<div class="line_bottom">
+							<img src="{:C('webPublic')}images/nameIcon.png" alt="您的真实姓名" />
+							<input type="text" value="{$name}" disabled/>
+						</div>
+						<div class="line_bottom">
+							<img src="{:C('webPublic')}images/creditCardIcon.png" alt="储蓄卡卡号" />
+							<input type="tel" value="{$cardStatus.data.bankCard}" disabled/>
+						</div>
+						<div class="line_bottom">
+							<img src="{:C('webPublic')}images/bankIcon.png" alt="所属银行" />
+							<input type="text" value="{$cardStatus.data.bankName}-{$cardStatus.data.cardType}" disabled/>
+						</div>
+					</div>
+				</div>
+				<else/>
+				<div class="noticeTip">
+					<img src="{:C('webPublic')}images/noticeIcon.png" /> 为了您的资金安全，请认真填写银行卡信息
+				</div>
+				<div class="changeBankCardMain">
+					<div class="FormsGroup bindCardFormGroup">
+						<div class="line_bottom">
+							<img src="{:C('webPublic')}images/nameIcon.png" alt="您的真实姓名" />
+							<input type="text" placeholder="请输入您的真实姓名" emp="{empty:true}" mess="输入您的真实姓名" value="{$name}" readonly />
+						</div>
+						<div class="line_bottom">
+							<img src="{:C('webPublic')}images/idCardIcon.png" alt="您的身份证号" />
+							<input type="text" id="idCard" placeholder="请输入您的身份证号" emp="{empty:true,sfz:true}" mess="输入您的身份证号" />
+						</div>
+						<div class="line_bottom">
+							<img src="{:C('webPublic')}images/creditCardIcon.png" alt="储蓄卡卡号" />
+							<input type="tel" id="inputBankCardNum" maxlength="19" onblur="getBame(this.value)" placeholder="请输入储蓄卡卡号" emp="{empty:true,care:true}" mess="输入储蓄卡卡号" />
+						</div>
+						<div class="line_bottom">
+							<img src="{:C('webPublic')}images/bankIcon.png" alt="所属银行" />
+							<input type="text" id="bankname" placeholder="所属银行" disabled="disabled" />
+						</div>
+						<div class="line_bottom">
+							<img src="{:C('webPublic')}images/phoneIcon.png" alt="预留手机号" />
+							<input type="tel" maxlength="11" id="phoneVal" placeholder="银行预留手机号" emp="{empty:true,tel:true}" mess="输入银行预留手机号" />
+						</div>
+						<div class="BindVerificationCode line_bottom">
+							<img src="{:C('webPublic')}images/verifyCodeIcon.png" alt="验证码" />
+							<input type="tel" id="verifyCode" maxlength="4" placeholder="验证码" emp="{empty:true,number:true}" mess="输入验证码" />
+							<a href="javascript:;" id="sendCode">获取验证码</a>
+						</div>
+					</div>
+					<div class="buttonMain">
+						<a class="submitBtn" href="javascript:;">确认</a>
+					</div>
+				</div>
+				</if>
+			</div>
+			<!--底部 导航 开始-->
+			<include file="Public/bottom"/>
+			<!--底部 导航 结束-->
+		</section>
+		<!--subpage end-->
+		<div class="overlazy"></div>
+	</body>
+	<script src="__PUBLIC__/js/function.js"></script>
+	<script type="text/javascript">
+		function getBame(val){
+			if(is_define(val)){
+				$.ajax({
+					url:"{:U('getBName')}",
+					data:{code:val},
+					dataType:'json',
+					type:'post',
+					success:function(ret){
+						if(ret.status){
+							$('#bankname').val(ret.msg);
+						}
+					}
+				});
+			}
+		}
+		$(function() {
+			//验证
+			$('.submitBtn').click(function() {
+				if ($('[emp]').checkinput()) {
+					mAjaxNL("{:U('doBankCardInfo')}",{phone:$('#phoneVal').val(),cardNum:$('#inputBankCardNum').val(),bankName:$('#bankname').val(),verify:$('#verifyCode').val(),idCard:$('#idCard').val()},function(ret){
+						layermsg(ret.msg);
+						if(ret.status){
+							setTimeout(function(){
+								window.location.reload();
+							},2000);
+						}
+					});
+				}
+			})
+			//获取验证码
+			var timer = null;
+			var onOff = true;
+			$('#sendCode').click(function() {
+				if ($('#phoneVal').checkinput()) {
+					if (onOff) {
+						var phoneVal = $('#phoneVal').val();
+						//请求
+						$.ajax({
+							url:  '{:U("sendVerifyMessage")}',
+							type: 'POST',
+							async: true,
+							data: {
+								phone: phoneVal,
+							},
+							timeout: 5000,
+							dataType: 'json',
+							success: function(ret) {
+								//请求成功
+								if (ret.status == 1) {
+									//验证码倒计时
+									var num = 60;
+									timer = setInterval(function() {
+										num--;
+										$('#sendCode').addClass('active').text('(' + num + 's' + ')' + '后重新发送');
+										if (num == 0) {
+											$('#sendCode').removeClass('active').text('发送验证码');
+											onOff = true;
+											clearInterval(timer);
+										}
+									}, 1000)
+								}else{
+									onOff = true;
+									layermsg(ret.msg);
+								}
+							}
+						})
+						onOff = false;
+					}
+				}
+			})
+		})	
+					
+	</script>
+
+</html>

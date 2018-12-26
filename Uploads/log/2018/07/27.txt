@@ -1,0 +1,6 @@
+[Success][2018-07-27 09:11:40]账号【18748106798】帐号验证通过！[Admin/Login/logincheck]
+[Success][2018-07-27 09:12:13]账号【system】帐号验证通过！[Admin/Login/logincheck]
+[Success][2018-07-27 09:35:27]用户名为：System于 2018-07-27 09:35:27 IP为： 192.168.1.243添加权限名称为 服务费列表保存成功[Admin/Auth/authaddfunction]
+[Success][2018-07-27 16:25:00]用户名为：System于 2018-07-27 16:25:00 IP为： 192.168.1.243添加权限名称为 续费管理保存成功[Admin/Auth/authaddfunction]
+[Success][2018-07-27 16:25:31]用户名为：System于 2018-07-27 16:25:31 IP为： 192.168.1.243添加权限名称为 续费列表保存成功[Admin/Auth/authaddfunction]
+[Success][2018-07-27 16:39:50]用户名为：System于 2018-07-27 16:39:50 IP为： 192.168.1.243添加权限名称为 周期模板保存成功[Admin/Auth/authaddfunction]

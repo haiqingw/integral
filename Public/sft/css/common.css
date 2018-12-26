@@ -1,0 +1,131 @@
+html,body{
+	font-family:"黑体";
+	max-width:750px;
+	min-width:320px;
+}
+/*1像素 边框 开始*/
+.line_bottom {
+	background-color:#fff;
+	border: none;
+	background-image: -webkit-linear-gradient(bottom, transparent 50%, #ccc 50%);
+	background-image: linear-gradient(bottom, transparent 50%, #ccc 50%);
+	background-size: 100% 1px;
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+
+.line_top {
+	border: none;
+	background-color:#fff;
+	background-image: -webkit-linear-gradient(top, transparent 50%, #ccc 50%);
+	background-image: linear-gradient(top, transparent 50%, #ccc 50%);
+	background-size: 100% 1px;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+.line_left {
+	border: none;
+	background-image: -webkit-linear-gradient(left, transparent 50%, #ccc 50%);
+	background-image: linear-gradient(left, transparent 50%, #ccc 50%);
+	background-size: 1px 100%;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+
+.line_right {
+	border: none;
+	background-image: -webkit-linear-gradient(right, transparent 50%, #ccc 50%);
+	background-image: linear-gradient(right, transparent 50%, #ccc 50%);
+	background-size: 1px 100%;
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+.line_bottom_right {
+	border: none;
+	background-image: -webkit-linear-gradient(bottom, transparent 50%, #ccc 50%), -webkit-linear-gradient(right, transparent 50%, #ccc 50%);
+	background-image: linear-gradient(bottom, transparent 50%, #ccc 50%), linear-gradient(right, transparent 50%, #ccc 50%);
+	background-size: 100% 1px, 1px 100%;
+	background-repeat: no-repeat, no-repeat;
+	background-position: left bottom, right top;
+}
+
+.line_right_fff {
+	border: none;
+	background-image: -webkit-linear-gradient(right, transparent 50%, #fff 50%);
+	background-image: linear-gradient(right, transparent 50%, #fff 50%);
+	background-size: 1px 100%;
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+.line_bottom_fff {
+	border: none;
+	background-image: -webkit-linear-gradient(bottom, transparent 50%, #fff 50%);
+	background-image: linear-gradient(bottom, transparent 50%, #fff 50%);
+	background-size: 100% 1px;
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+
+/*1像素 边框 结束*/
+/*背景颜色 开始*/
+.grayBg{
+	background:#f1f1f1;
+}
+.FffBg{
+	background:#fff;
+}
+.yellowBg{
+	background:#f8da29;
+}
+/*背景颜色 结束*/
+/*字体颜色 开始*/
+a.active{
+	color:#ccc !important;
+}
+/*字体颜色 结束*/
+/*动画 开始*/
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  animation-iteration-count: infinite;
+}
+/*动画 结束*/
+/*暂无数据 开始*/
+.noDataaMain{
+	text-align:center;
+	padding-top:20%;
+}
+.noDataaMain img{
+	width:30%;
+	vertical-align:middle;
+}
+.noDataaMain p{
+	line-height:30px;
+	font-size:16px;
+	color:#333;
+}
+/*暂无数据 结束*/
+/*按钮 开始*/
+.buttonBtnCircle{
+  padding:30px 0;
+}
+.buttonBtnCircle a{
+	display:block;
+	width:50%;
+	margin:0 auto;
+	height:40px;
+	line-height:41px;
+	overflow:hidden;
+	text-align:center;
+	font-size:16px;
+	color: #fff;
+	background:#fa5e13;
+	border-radius:40px;
+}
+/*按钮 结束*/

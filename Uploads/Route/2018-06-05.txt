@@ -1,0 +1,103 @@
+array (
+)
+array (
+)
+array (
+  'requestType' => 'agent',
+  'requestKeywords' => 'terminal',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'agent',
+  'requestKeywords' => 'terminal',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'agent',
+  'requestKeywords' => 'terminal',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+  'productID' => 11,
+)
+array (
+  'requestType' => 'agent',
+  'requestKeywords' => 'terminal',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+  'productID' => 11,
+)
+array (
+  'requestType' => 'agent',
+  'requestKeywords' => 'terminal',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+  'productID' => 11,
+  'batchNo' => 'PC002',
+)
+array (
+  'requestType' => 'agent',
+  'requestKeywords' => 'terminal',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+  'productID' => 11,
+  'batchNo' => 'PC002',
+)
+array (
+  'requestType' => 'agent',
+  'requestKeywords' => 'terminal',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+  'productID' => 11,
+  'batchNo' => 'PC002',
+)
+array (
+  'requestType' => 'agent',
+  'requestKeywords' => 'product',
+  'platformID' => '175',
+)
+array (
+  'requestType' => 'agent',
+  'requestKeywords' => 'product',
+  'platformID' => '175',
+)
+array (
+  'requestType' => 'agent',
+  'requestKeywords' => 'terminalsmalllist',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+  'productID' => 11,
+)
+array (
+  'requestType' => 'agent',
+  'requestKeywords' => 'terminalsmalllist',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+  'productID' => 11,
+)
+array (
+  'requestType' => 'agent',
+  'requestKeywords' => 'terminalsmalllist',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+  'productID' => 11,
+)
+array (
+  'requestType' => 'agent',
+  'requestKeywords' => 'terminalsmalllist',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+  'productID' => 11,
+)

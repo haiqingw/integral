@@ -1,0 +1,6 @@
+[Success][2018-09-28 08:44:26]账号【system】帐号验证通过！[Admin/Login/logincheck]
+[Success][2018-09-28 09:35:00]账号【lanrenkeji】帐号验证通过！[Admin/Login/logincheck]
+[Success][2018-09-28 10:30:50]用户名为：System于 2018-09-28 10:30:50 IP为： 192.168.31.243添加权限名称为 商户统计保存成功[Admin/Auth/authaddfunction]
+[Success][2018-09-28 10:34:44]用户名为：System于 2018-09-28 10:34:44 IP为： 192.168.31.243添加权限名称为 商户统计保存成功[Admin/Auth/authaddfunction]
+[Success][2018-09-28 10:35:00]用户名为：System于 2018-09-28 10:35:00 IP为： 192.168.31.243更改权限名称成功[Admin/Auth/authmodifyfunction]
+[Success][2018-09-28 17:17:45]账号【laijinkeji】帐号验证通过！[Admin/Login/logincheck]

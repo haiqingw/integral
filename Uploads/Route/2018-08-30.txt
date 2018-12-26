@@ -1,0 +1,8 @@
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '177',
+  'userID' => '335f5352088d7d9bf74191e006d8e24c',
+  'userPhone' => 'MsTjUf1wNpDogr4wMezjccwlMaDmAlO0O0Om',
+  'types' => 'days',
+)

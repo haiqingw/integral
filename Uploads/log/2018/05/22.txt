@@ -1,0 +1,3 @@
+[Success][2018-05-22 11:00:47]账号【system】帐号验证通过！[Admin/Login/logincheck]
+[Success][2018-05-22 14:00:42]用户名为：System于 2018-05-22 14:00:42 IP为： 192.168.1.243添加权限名称为 意见反馈保存成功[Admin/Auth/authaddfunction]
+[Success][2018-05-22 14:04:05]用户名为：System于 2018-05-22 14:04:05 IP为： 192.168.1.243更改权限名称成功[Admin/Auth/authmodifyfunction]

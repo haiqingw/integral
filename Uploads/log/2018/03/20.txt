@@ -1,0 +1,5 @@
+[Success][2018-03-20 09:40:02]账号【system】帐号验证通过！[Admin/Login/logincheck]
+[Success][2018-03-20 10:16:37]账号【system】帐号验证通过！[Admin/Login/logincheck]
+[Success][2018-03-20 10:35:02]用户名为：System于 2018-03-20 10:35:02 IP为： 192.168.1.243添加权限名称为 活动管理保存成功[Admin/Auth/authaddfunction]
+[Success][2018-03-20 10:35:38]用户名为：System于 2018-03-20 10:35:38 IP为： 192.168.1.243添加权限名称为 活动列表保存成功[Admin/Auth/authaddfunction]
+[Success][2018-03-20 10:36:56]用户名为：System于 2018-03-20 10:36:56 IP为： 192.168.1.243添加权限名称为 活动分类保存成功[Admin/Auth/authaddfunction]

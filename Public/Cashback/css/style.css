@@ -1,0 +1,371 @@
+.CashBackContainer {
+  width: 1002px;
+  margin: 0 auto;
+  height: 100%;
+  position: relative;
+}
+.cashBackHeader {
+  justify-content: space-around;
+  padding: 20px 0;
+  border-bottom: 1px solid #ccc;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+  background: #fff;
+}
+.cashBackItem {
+  width: 350px;
+  box-shadow: 0 0 4px #ccc;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 20px 0 180px;
+  position: relative;
+  box-sizing:border-box;
+}
+em.cashSettingTip{
+  display: block;
+  width: 160px;
+  height: 20px;
+  line-height: 20px;
+  background: #A5DA00;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  margin-top: -10px;	
+}
+.cashBackInputItem>em.color01{
+	background:green;
+}
+.cashBackInputItem>em.color02{
+	background:blue;
+}
+.cashBackInputItem>em.color03{
+	background:orange;
+}
+.cashBackInputItem>em.color04{
+	background:#f33;
+}
+.cashBackInputItem>em.color05{
+	background:#f33;
+}
+.cashBackInputItem>em.color06{
+	background:#339966;
+}
+.cashBackInputItem>em.color07{
+	background:#996666;
+}
+.cashBackInputItem>em.color08{
+	background:#666633;
+}
+.cashBackInputItem>em.color09{
+	background:#669999;
+}
+.cashBackInputItem>em.color10{
+	background:#9999CC;
+}
+.cashBackItem input {
+  width: 100%;
+  height: 50px;
+  border: none;
+  background: none;
+  position: relative;
+  top: -1px;
+  font-size: 16px;
+  position:relative;
+  top:-4px;
+}
+.cashBackItem select {
+  width: 100%;
+  height: 50px;
+  border: none;
+  background: none;
+  position: relative;
+  top: -1px;
+  font-size: 16px;
+  appearance: none;
+  -webkit-appearance: none;
+}
+.submitBtn{
+	width:120px;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	font-size:16px;
+	background:#00A2FF;
+	color:#fff;
+	font-family:'黑体';
+	cursor:pointer;
+}
+.cashBackItem.arrBottomIcon {
+  background: url(../images/arrBottomImg.png) no-repeat 295px center;
+  background-size: 20px 20px;
+}
+.cashBackItem.redTipJe:before {
+  content: '金额';
+  display: block;
+  width: 40px;
+  height: 20px;
+  line-height: 20px;
+  background: #A5DA00;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  margin-top: -10px;
+}
+.cashBackItem.redTipTj:before {
+  content: '条件';
+  display: block;
+  width: 40px;
+  height: 20px;
+  line-height: 20px;
+  background: #DAB38B;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  margin-top: -10px;
+}
+
+.cashBackBody {
+  overflow: hidden;
+  padding-top: 91px;
+  height: 100%;
+  box-sizing: border-box;
+}
+.cashBackBody > div {
+  position: relative;
+  height: 100%;
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+}
+.cashBackBody > div:first-of-type {
+  border-right: 1px solid #ccc;
+}
+.cashBackBody > div h3 {
+  padding: 20px;
+  font-size: 20px;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background: #fff;
+  box-sizing: border-box;
+  z-index: 999;
+}
+.cashBackBody > div h3 a {
+  font-size: 14px;
+  color: #f33;
+  float: right;
+  display: block;
+  line-height: 28px;
+  height: 28px;
+}
+.cashBackSettingBox {
+  padding: 70px 20px 20px;
+  height: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+	background:#fff;
+}
+.cashBackSettingItem {
+  box-shadow: 0 0 3px #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.closeSelfBtn{
+  width:20px;
+  height:20px;
+  position: absolute;
+  right:10px;
+  top:10px;
+  z-index:9999;
+  line-height:20px;
+}
+.closeSelfBtn img{
+  width:100%;
+  height:100%;
+}
+.cashBackInputItem {
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #ccc;
+  padding: 0 20px 0 180px;
+  position: relative;
+}
+.cashBackInputItem select {
+	width: 100%;
+    height: 50px;
+    border: none;
+    background: none;
+    position: relative;
+    top: -1px;
+    font-size: 16px;
+    appearance: none;
+    -webkit-appearance: none;
+}
+.cashBackInputItem.redTipJe:before {
+  content: '金额';
+  display: block;
+  width: 40px;
+  height: 20px;
+  line-height: 20px;
+  background: #A5DA00;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  margin-top: -10px;
+}
+.cashBackInputItem.redTipGs::before {
+  content: '个数';
+  display: block;
+  width: 40px;
+  height: 20px;
+  line-height: 20px;
+  background: #6088DA;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  margin-top: -10px;
+}
+.cashBackInputItem.redTipFl::before {
+  content: '费率';
+  display: block;
+  width: 40px;
+  height: 20px;
+  line-height: 20px;
+  background: #946251;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  margin-top: -10px;
+}
+.cashBackInputItem input {
+  height: 45px;
+  border: none;
+  background: none;
+  width: 100%;
+  font-size: 14px;
+  position:relative;
+  top:-1px;
+}
+.cashBackInputItemShuang {
+  height: 80px;
+  line-height: 80px;
+  border-bottom: 1px solid #ccc;
+  padding: 0 0 0 60px;
+  position: relative;
+}
+.cashBackInputItemShuang.redTipBl:before {
+  content: '比例';
+  display: block;
+  width: 40px;
+  height: 20px;
+  line-height: 20px;
+  background: #2FDA00;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  margin-top: -10px;
+}
+.cashBackInputItemShuang.redTipJe::before {
+  content: '金额';
+  display: block;
+  width: 40px;
+  height: 20px;
+  line-height: 20px;
+  background: #A5DA00;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  margin-top: -10px;
+}
+.cashBackInputItemShuang div.singleInput > input {
+  height: 75px;
+  border: none;
+  background: none;
+  font-size: 14px;
+  width: 100px;
+}
+.cashBackInputItemShuang div.singleInput div.doubleInput {
+  width: 239px;
+  height: 80px;
+  line-height: 40px;
+  float: right;
+  border-left: 1px solid #ccc;
+}
+.cashBackInputItemShuang div.singleInput div.doubleInput div {
+  height: 40px;
+  line-height: 40px;
+  padding: 0 10px 0 70px;
+  position: relative;
+}
+.cashBackInputItemShuang div.singleInput div.doubleInput div:first-of-type {
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.cashBackInputItemShuang div.singleInput div.doubleInput div.xykTip::before {
+  content: '借记卡';
+  display: block;
+  width: 50px;
+  height: 20px;
+  line-height: 20px;
+  background: skyblue;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  margin-top: -10px;
+}
+.cashBackInputItemShuang div.singleInput div.doubleInput div.djkTip::before {
+  content: '贷记卡';
+  display: block;
+  width: 50px;
+  height: 20px;
+  line-height: 20px;
+  background: #f33;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  margin-top: -10px;
+}
+.cashBackInputItemShuang div.singleInput div.doubleInput div input {
+  height: 35px;
+  border: none;
+  background: none;
+  font-size: 14px;
+  width: 100%;
+}
+input.activeInput::-webkit-input-placeholder {
+          /* placeholder颜色  */
+          color: #f33;
+      }

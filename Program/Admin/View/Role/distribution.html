@@ -1,0 +1,103 @@
+<div class="pageContent">
+	<form method="post" action="{:U('distributionfunction')}" class="pageForm required-validate"
+		  onsubmit="return validateCallback(this, navTabAjaxDone);">
+		<input type="hidden" name="role_id" value="{$info.role_id}">
+
+		<div class="pageFormContent" layoutH="100">
+			<p style="clear: both;">
+				<label>设置权限角色名称：</label>
+				<input name="roleName" type="text" size="30" value="{$info.role_name}"/>
+			</p>
+			<p>
+				<label><input onclick="changeAllCheckBox(this)" type="checkbox" value="1"/> 全选/全不选</label>
+			</p>
+            <style type="text/css">
+                li{list-style: none;}
+            </style>
+            <script type="text/javascript">
+            	function changeAllCheckBox(obj){
+            		var $ck = ($(obj).attr('checked'));
+            		if($ck == "checked"){
+            			$("input[type=checkbox]").attr("checked","checked");
+            		}else{
+            			$("input[type=checkbox]").removeAttr("checked");
+            		}
+            	}
+            	$(function(){
+					$("div[qx-list] ul").each( function(index, Element){
+						$(this).find("li:first ul:first li:first li input").click(function(){
+							var $this=$(this);
+							if($this.is(":checked")){
+								if($this.closest("ul").find("li input:checked").length > 0){
+									$this.closest("ul").parent("li").find("input:first").attr("checked","checked");
+									$this.closest("ul").parent("li").closest("ul").parent("li").find("input:first").attr("checked","checked");
+									}
+								}else{
+									if($this.closest("ul").find("li input:checked").length <= 0){
+										$this.closest("ul").parent("li").find("input:first").removeAttr("checked");
+										$this.closest("ul").parent("li").closest("ul").parent("li").find("input:first").removeAttr("checked");
+										}
+								}
+							});
+						$(this).find("li:first ul:first li:first input:first").click(function(){
+							if($(this).is(":checked")){
+								$(this).closest("ul").parent("li").find("input:first").attr("checked","checked");
+								}else{
+									$(this).closest("ul").parent("li").find("input:first").removeAttr("checked","checked");
+									}
+							});	
+						});
+					});
+            </script>
+            <div style="clear: both; margin-left: 130px; margin-top: 50px; margin-bottom: 20px;" qx-list>
+                <foreach name="pauthinfo" item="v">
+                    <ul>
+                        <li>
+                            {$v.auth_name}
+                            <input type="checkbox" value="{$v.auth_id}" name="lr_authName[]" <if condition="in_array($v['auth_id'],$auth_ids_arr)">checked="checked"</if>>
+                            <ul style="margin-left: 70px;">
+                                <foreach name="sauthinfo" item="vv">
+                                    <if condition="$vv['auth_pid'] eq $v['auth_id']">
+                                        <li>
+                                            {$vv.auth_name}
+                                            <input type="checkbox" value="{$vv.auth_id}" name="lr_authName[]" <if condition="in_array($vv['auth_id'],$auth_ids_arr)">checked="checked"</if>>
+                                            <ul style="margin-left: 70px">
+                                                <volist name="tauth_info" id="vvv">
+                                                    <if condition="$vvv['auth_pid'] eq $vv['auth_id']">
+                                                        <li>
+                                                            {$vvv.auth_name}
+                                                            <input type="checkbox" value="{$vvv.auth_id}" name="lr_authName[]" <if condition="in_array($vvv['auth_id'],$auth_ids_arr)">checked="checked"</if>>
+                                                        </li>
+                                                    </if>
+                                                </volist>
+                                            </ul>
+                                        </li>
+                                    </if>
+                                </foreach>
+                            </ul>
+                        </li>
+                    </ul>
+                </foreach>
+            </div>
+
+		 </div>
+		<div class="formBar">
+			<ul style="float: left">
+				<li style="margin-left: 100px;">
+					<div class="buttonActive">
+						<div class="buttonContent">
+							<button type="submit">保存</button>
+						</div>
+					</div>
+				</li>
+				<li style="margin-left: 20px;">
+					<div class="button">
+						<div class="buttonContent">
+							<button type="button" class="close">取消</button>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</form>
+</div>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,initial-scale=1.0,width=device-width" />
+		<meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+		<title>{:C('webTitle')}</title>
+		<link rel="stylesheet" type="text/css" href="{:C('webPublic')}css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="{:C('webPublic')}css/common.css" />
+		<link rel="stylesheet" type="text/css" href="{:C('webPublic')}css/style.css" />
+		<link rel="stylesheet" type="text/css" href="{:C('webPublic')}css/swiper.min.css" />
+		<script type="text/javascript" src="{:C('webPublic')}js/jquery-1.8.3.min.js"></script>
+		<script src="{:C('webPublic')}js/HomeCheck.js" type="text/javascript" charset="utf-8"></script>
+		<script src="{:C('webPublic')}js/layer.js" type="text/javascript" charset="utf-8"></script>
+		<script src="{:C('webPublic')}js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<!--header start-->
+		<header class="subpageHeader">
+			<a class="aBackBtn" href="javascript:history.go(-1)"><img src="{:C('webPublic')}images/backIcon.png" /></a>佣金提现</header>
+		<!--header end-->
+		<section class="subpageMain">
+			<!--选择提现 开始-->
+			<div class="selectWithdraw">
+				<div class="swiper-container">
+					<div class="swiper-wrapper" id='swiperWrapper'>
+						<div class="swiper-slide " onclick="cxSlide(this)">
+							<div class="withDrawBox active">
+								<h3 class="fxway">交易返现</h3>
+								<div>
+									<p>可提现金额</p>
+									<span class="canTxMoney">{$balance}</span>
+								</div>
+								<em>余额:{$balance}</em>
+								<em>结算方式：秒结</em>
+							</div>
+						</div>
+						<!-- <div class="swiper-slide " onclick="cxSlide(this)">
+							<div class="withDrawBox">
+								<h3 class="fxway">交易奖励</h3>
+								<div>
+									<p>可提现金额</p>
+									<span class="canTxMoney">88888.99</span>
+								</div>
+								<em>余额:9999.99</em>
+								<em>结算方式：秒结</em>
+							</div>
+						</div> -->
+					</div>
+				</div>
+			</div>
+			<!--选择提现 结束-->
+			<!--填写商户账号信息 开始-->
+			<div class="input_div">
+				<!--单条数据CashWithdrawal-->
+				<!--单条数据-->
+				<div class="input_list withDrawInput">
+					<em>提现金额</em>
+					<div>
+						<input id="withdrawal_id" type="tel" placeholder="请输入2元以上数字" emp="{relmon:true,empty:true}" mess="输入提现金额">
+					</div>
+				</div>
+			</div>
+			<nav class="nav_title">
+				账户信息
+			</nav>
+			<div class="input_div">
+				<!--单条数据-->
+				<div class="input_list line_bottom">
+					<em>收款姓名</em>
+					<div>
+						<input id='gatheringName' type="text" value="{$info.name}" disabled="disabled">
+					</div>
+				</div>
+				<!--单条数据-->
+				<div class="input_list">
+					<em>收款银行卡</em>
+					<div>
+						<input id="gatheringNum" type="tel" value="{$info.bankCard}" disabled="disabled">
+					</div>
+				</div>
+			</div>
+			<nav class="nav_title">
+				注意事项
+			</nav>
+			<div class="input_div">
+				<div class="input_list" style="font-size:14px; line-height:26px;">
+					每笔提现需要扣除二元的手续费，单笔最大五万！手动提现2小时内到账，秒到时间9:00-21:00!
+				</div>
+			</div>
+			<a tepmode class="registerBtn sumbitButton">确定提现</a>
+		</section>
+	</body>
+	<script src="__PUBLIC__/js/func.js"></script>
+	<script src="__PUBLIC__/js/function.js"></script>
+	<script src=""></script>
+	<script type="text/javascript">
+	  $(function(){
+		  $('.sumbitButton').click(function() {
+				if ($('[emp]').checkinput()) {
+					var $money = $('#withdrawal_id').val();
+					if(Number($money) <= 2){
+						layermsg($('#withdrawal_id').attr('placeholder'));
+					}else if(Number($money) > Number("{$balance}")){
+						layermsg("您的可提现金额不足");
+					}else{
+						mAjaxNL("{:U('Drawcash/receiveFlowWallet')}",{money:$money,bankId:"{$info.id}"},function(ret){
+							if(ret.status){
+								//刷新金额
+								str = '{:U("Center/withdrawSuccess")}?mn='+$money+'&bk={$info.bankCard}';
+								window.location = str;
+							}else{
+								layermsg(ret.msg);
+							}
+						});
+					}
+				}
+			})
+		  $('#withdrawal_id').numeral();
+		  //滑动切换
+		  selectWithDraw()
+	  })
+		function selectWithDraw() {
+			var swiper = new Swiper('.swiper-container', {
+				pagination: '.swiper-pagination',
+				slidesPerView: 1.4,
+				centeredSlides: true,
+				spaceBetween: 15,
+				onSlideChangeEnd: function(swiper) {
+					$('.swiper-wrapper .withDrawBox').removeClass('active');
+					var $txBox = $('#withdrawal_id');
+					if (swiper.activeIndex == 0) {
+						var $rqBox = $thisBind = $('.swiper-wrapper .withDrawBox').eq(0);
+						$thisBind.addClass('active');
+					} else if (swiper.activeIndex == 1) {
+						var $rqBox = $thisPos = $('.swiper-wrapper .withDrawBox').eq(1);
+						$thisPos.addClass('active');
+					}
+					$txBox.val('');
+					$txBox.attr('placeholder', '最多可提现' + $($rqBox).find('.canTxMoney').text() + '元');
+//					$type = $($rqBox).find('.canTxMoney').attr('data-type');
+				}
+			});
+		}
+
+		function cxSlide(obj) {
+			var $txBox = $('#withdrawal_id');
+			$txBox.val($(obj).find('.canTxMoney').text());
+//			$type = $(obj).find('.canTxMoney').attr('data-type');
+		}
+	</script>
+
+</html>

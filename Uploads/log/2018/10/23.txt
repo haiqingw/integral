@@ -1,0 +1,6 @@
+[Success][2018-10-23 09:16:28]账号【system】帐号验证通过！[Admin/Login/logincheck]
+[Success][2018-10-23 09:16:53]账号【ceshiadmin】帐号验证通过！[Admin/Login/logincheck]
+[Success][2018-10-23 09:43:21]账号【system】帐号验证通过！[Admin/Login/logincheck]
+[Success][2018-10-23 10:52:34]用户名为：System于 2018-10-23 10:52:34 IP为： 192.168.31.243账号名称为：ceshitwo状态：添加成功[Admin/Systemuser/systemaddfunction]
+[Success][2018-10-23 11:00:08]用户名为：System于 2018-10-23 11:00:08 IP为： 192.168.31.243添加权限名称为 基础分类保存成功[Admin/Auth/authaddfunction]
+[Success][2018-10-23 14:01:40]用户名为：System于 2018-10-23 14:01:40 IP为：192.168.31.243删除了 1条记录，操作成功！[Admin/Auth/authdel]

@@ -1,0 +1,90 @@
+<form id="pagerForm" method="post" action="{:U('Class/index')}" onsubmit="return navTabSearch(this);">
+    <input type="hidden" name="keywords" value="{$keywords}" />
+    <input type="hidden" name="model" value="{$model}" />
+    <input type="hidden" name="pageNum" value="{$page}" />
+    <input type="hidden" name="numPerPage" value="{$numPerPage}" />
+</form>
+<div class="pageHeader">
+    <form onsubmit="return navTabSearch(this);" action="{:U('Class/index')}" method="post" id="ClassIndex">
+        <div class="searchBar">
+            <table class="searchContent">
+                <tr>
+                    <td align="left">
+                    </td>
+                    <td align="right">
+                        关键词：<input type="text" value="{$keywords}" id="keywords" name="keywords" autocomplete="off"
+                            placeholder="请输入分类名称" style="width: 160px;" value="{$keywords}"/>
+                    </td>
+
+                    <td align="left">
+                        <div class="buttonActive">
+                            <div class="buttonContent"><button type="submit">检索</button></div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</div>
+<div class="pageContent">
+    <div class="panelBar">
+        <ul class="toolBar">
+            <li><a class="add" href="{:U('add')}" target="dialog"><span>添加</span></a></li>
+            <li class="line">line</li>
+            <li><a class="edit" href="{:U('update')}?id={sid_user}" target="dialog"><span>修改</span></a></li>
+            <li class="line">line</li>
+            <li><a title="确定要删除这些记录吗?" target="selectedTodo" rel="decldel" postType="string" href="{:U('Class/del')}"
+                    class="delete"><span>删除</span></a></li>
+        </ul>
+    </div>
+    <table class="table" width="80%" layoutH="160">
+        <thead>
+            <tr>
+                <th width="2%"><input type="checkbox" group="decldel" class="checkboxCtrl"></th>
+                <th width="50" align="center">ID</th>
+                <th width="80" align="left">分类名称</th>
+                <th width="80" align="left">所属分类</th>
+                <th width="80" align="center">分类图片</th>
+                <th width="80" align="center">排序</th>
+            </tr>
+        </thead>
+        <tbody>
+            <foreach name="data" item="v">
+                <tr target="sid_user" rel="{$v.id}">
+                    <td><input name="decldel" value="{$v.id}" type="checkbox"></td>
+                    <td align="center">{$v.id}</td>
+                    <td align="center">{$v.name}</td>
+                    <td align="center">
+                        <if condition="$v['pId'] eq 0">顶级分类
+                            <else />{$v['parentname']}</if>
+                    </td>
+                    <td align="center"><img style="height:100%;" src="{$v.photo}" /></td>
+                    <td align="center">{$v.sort}</td>
+                </tr>
+            </foreach>
+        </tbody>
+    </table>
+    <div class="panelBar">
+        <div class="pages">
+            <span>显示</span>
+            <select class="combox" name="numPerPage" onchange="navTabPageBreak({numPerPage: this.value})">
+                <option value="20" <if condition="$numPerPage eq 20">selected="selected"</if>>20
+                </option>
+                <option value="50" <if condition="$numPerPage eq 50">selected="selected"</if>>50
+                </option>
+                <option value="100" <if condition="$numPerPage eq 100">selected="selected"</if>>100
+                </option>
+                <option value="200" <if condition="$numPerPage eq 200">selected="selected"</if>>200
+                </option>
+            </select>
+            <span>条，共{$totalCount}条</span>
+        </div>
+        <div class="pagination" targetType="navTab" totalCount="{$totalCount}" numPerPage="{$numPerPage}" pageNumShown="10"
+            currentPage="{$page}"></div>
+    </div>
+</div>
+<script>
+function searchByClass(){
+    $('#ClassIndex').submit();
+}
+</script>

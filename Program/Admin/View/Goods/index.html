@@ -1,0 +1,171 @@
+<form id="pagerForm" method="post" action="{:U('Goods/index')}">
+    <input type="hidden" name="keywords" value="{$keywords}" />
+    <input type="hidden" name="model" value="{$model}" />
+    <input type="hidden" name="pageNum" value="{$page}" />
+    <input type="hidden" name="numPerPage" value="{$numPerPage}" />
+</form>
+<div class="pageHeader">
+    <form onsubmit="return navTabSearch(this);" action="{:U('Goods/index')}" method="post" id="GoodsIndex">
+        <div class="searchBar">
+            <table class="searchContent">
+                <tr>
+                    <td align="left">
+                    </td>
+                    <td align="right">
+                        关键词：<input type="text" value="{$keywords}" id="keywords" name="keywords" autocomplete="off"
+                            placeholder="请输入商品名称" style="width: 160px;" value="{$keywords}" />
+                    </td>
+
+
+                    <td align="left">
+                        <select onchange="changeFloor(this,1)" id="myclass1" name="class1">
+                            <option value>请选择分类</option>
+                            <volist name="classFloor1" id="vo">
+                                <option value="{$vo.id}" <if condition="$class1.id eq $vo['id']">selected</if>>{$vo.name}</option>
+                            </volist>
+                        </select>
+                    </td>
+                    <td align="left">
+                        <select onchange="changeFloor(this,2)" id="myclass2" name="class2">
+                            <if condition="!empty($class2)">
+                                <option value="{$class2.id}" selected>{$class2.name}</option>
+                            </if>
+                        </select>
+                    </td>
+                    <td align="left">
+                        <select name="classId" id="myclass3">
+                            <if condition="!empty($class3)">
+                                <option value="{$class3.id}" selected>{$class3.name}</option>
+                            </if>
+                        </select>
+                    </td>
+                    <td align="left">
+                        <select class="combox" name="state" onchange="searchByClass()">
+                            <option value>全部</option>
+                            <option value="on" <if condition="$state eq on">selected</if>>上架</option>
+                            <option value="off" <if condition="$state eq off">selected</if>>下架</option>
+                        </select>
+                    </td>
+                    <td align="left">
+                        <div class="buttonActive">
+                            <div class="buttonContent"><button type="submit">检索</button></div>
+                        </div>
+                    </td>
+
+                </tr>
+            </table>
+        </div>
+    </form>
+</div>
+<div class="pageContent">
+    <div class="panelBar">
+        <ul class="toolBar">
+            <li><a class="add" href="{:U('Goods/add')}" target="navTab"><span>添加</span></a></li>
+            <li class="line">line</li>
+            <li><a class="edit" href="{:U('Goods/update')}?id={sid_user}" target="navTab"><span>修改</span></a></li>
+            <li class="line">line</li>
+            <li><a title="确定要删除这些记录吗?" target="selectedTodo" rel="decldel" postType="string" href="{:U('Goods/del')}"
+                    class="delete"><span>删除</span></a></li>
+            <li class="line">line</li>
+            <li><a class="edit" href="{:U('Goods/addgoods')}?id={sid_user}" target="dialog"><span>商品入库</span></a></li>
+        </ul>
+    </div>
+    <table class="table" width="80%" layoutH="180">
+        <thead>
+            <tr>
+                <th width="2%"><input type="checkbox" group="decldel" class="checkboxCtrl"></th>
+                <th width="50" align="center">ID</th>
+                <th width="150" align="left">商品名称</th>
+                <th width="80" align="left">所属分类</th>
+                <th width="80" align="center">封面图片</th>
+                <th width="80" align="center">库存数量</th>
+                <th width="80" align="center">总销售量</th>
+                <th width="80" align="center">上架状态</th>
+                <th width="150" align="center">现售价格</th>
+                <th width="80" align="center">市场价格</th>
+                <th width="150" align="center">创建时间</th>
+            </tr>
+        </thead>
+        <tbody>
+            <foreach name="goods" item="v">
+                <tr target="sid_user" rel="{$v.id}">
+                    <td><input name="decldel" value="{$v.id}" type="checkbox"></td>
+                    <td align="center">{$v.id}</td>
+                    <td align="center">{$v['name']}</td>
+                    <td align="center">{$v['classname']}</td>
+                    <td align="center"><img style="height:100%;" src="{$v.facePhoto}" /></td>
+                    <td align="center">{$v.hasNum}</td>
+                    <td align="center">{$v.buyNum}</td>
+                    <td align="center"><select name="goodsid{$v.id}" onChange="changestate(this,'{$v.id}');">
+                            <option value="on">上架</option>
+                            <option <if condition="$v.state eq off">selected</if> value="off">下架</option>
+                        </select></td>
+                    <td align="center">{$v.jifen}金币+￥{$v.nowPrice}</td>
+                    <td align="center">￥{$v.buyPrice}</td>
+                    <td align="center">{$v.createTime||date="Y-m-d H:i",###}</td>
+
+                </tr>
+            </foreach>
+        </tbody>
+    </table>
+    <div class="panelBar">
+        <div class="pages">
+            <span>显示</span>
+            <select class="combox" name="numPerPage" onchange="navTabPageBreak({numPerPage: this.value})">
+                <option value="20" <if condition="$numPerPage eq 1">selected="selected"</if>>20
+                </option>
+                <option value="50" <if condition="$numPerPage eq 50">selected="selected"</if>>50
+                </option>
+                <option value="100" <if condition="$numPerPage eq 100">selected="selected"</if>>100
+                </option>
+                <option value="200" <if condition="$numPerPage eq 200">selected="selected"</if>>200
+                </option>
+            </select>
+            <span>条，共{$totalCount}条</span>
+        </div>
+        <div class="pagination" targetType="navTab" totalCount="{$totalCount}" numPerPage="{$numPerPage}" pageNumShown="10"
+            currentPage="{$page}"></div>
+    </div>
+</div>
+<script>
+    function changestate(obj, id) {
+        $.ajax({
+            url: '{:U("Goods/changestate")}',
+            type: 'post',
+            dataType: 'json',
+            data: { id: id, val: obj.value },
+            success: function (data) {
+                if (data != null) {
+                    $msg = obj.value == 'on' ? '上架' : '下架';
+                    alert('商品' + $msg + '成功');
+                }
+            }
+        });
+    }
+
+    function searchByClass() {
+        $('#GoodsIndex').submit();
+    }
+
+    function changeFloor(obj, floorNum) {
+        $.ajax({
+            url: '{:U("Goods/changeFloor")}',
+            type: 'post',
+            dataType: 'json',
+            data: { classId: obj.value },
+            success: function (data) {
+                if (data != null) {
+                    var op = data.options;
+                    floorNum = floorNum + 1;
+                    $('#myclass' + floorNum + '').html('<option value >请选择</option>');
+                    var options = '';
+                    for (var i = 0; i < op.length; i++) {
+                        options += '<option value="' + op[i].id + '">' + op[i].name + '</option>';
+                    }
+
+                    $('#myclass' + floorNum).append(options);
+                }
+            }
+        })
+    }
+</script>

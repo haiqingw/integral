@@ -1,0 +1,143 @@
+<div class="pageContent">
+    <form method="post" id="myform" action="{:U('Goods/updateFunction')}" class="pageForm required-validate" onsubmit="return iframeCallback(this);"
+        target="callbackframe" enctype="multipart/form-data">
+        <div class="pageFormContent" layoutH="56">
+            <div class="unit">
+                <input name="id" value="{$data.id}" type="hidden" />
+                <fieldset>
+                    <legend>信息编辑2</legend>
+                    <div class="tabs" currentIndex="0" eventType="click">
+                        <div class="tabsHeader">
+                            <div class="tabsHeaderContent">
+                                <ul>
+                                    <li><a href="JavaScript:;"><span>商品基本信息</span></a></li>
+                                    <li><a class="add" href="{:U('Goodsguige/add')}?goodsId={$data.id}" target="navTab"><span>商品规格</span></a></li>
+                                    <li><a href="{:U('Goodsphoto/index')}?goodsId={$data.id}" target="navTab"><span>商品图片</span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <dl class="nowrap">
+                        <dt>所属分类</dt>
+                        <dd>
+                            <select name="classId" class="combox">
+                                <volist name="classes" id="vo">
+                                    <option <if condition="$data.id eq $vo.id">selected</if> value="{$vo.id}">{$vo.name}</option>
+                                    <foreach name="vo['child']" item="f">
+                                        <option <if condition="$data.id eq $f.id">selected</if> value="{$f.id}">
+                                            <switch name="f.floorId">
+                                                <case value="2">&nbsp;&nbsp;&nbsp;&nbsp;--</case>
+                                                <case value="3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--</case>
+                                                <case value="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;--</case>
+                                                <case value="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;;&nbsp;&nbsp;;&nbsp;--</case>
+                                                <default />
+                                            </switch>
+                                            {$f.name}
+                                        </option>
+                                    </foreach>
+
+                                </volist>
+                            </select>
+                        </dd>
+                    </dl>
+                    <dl class="nowrap">
+                        <dt>商品名称</dt>
+                        <dd>
+                            <input type="text" name="name" class="required" value="{$data['name']}" NewsAdd emp="{empty:true}"
+                                mess="填写分类名称" />
+                        </dd>
+                    </dl>
+                    <dl class="nowrap">
+                        <dt>封面图片</dt>
+                        <dd>
+                            <input name="facePhoto" type="file" />
+                            <p style="clear: both; width: 100%">
+                                <font style="margin-left: 130px; color: #FF0000;">提示:图片尺寸为237*70</font>
+                            </p>
+                        </dd>
+                    </dl>
+                    <dl class="nowrap">
+                        <dt>分类图片预览</dt>
+                        <dd>
+                            <if condition="!empty($data['facePhoto'])"> <img style="width: 150px; height: 150px;" src="{$data['facePhoto']}" />
+                                <else /> 未上传 </if>
+                        </dd>
+                    </dl>
+                    <dl class="nowrap">
+                        <dt>上架状态</dt>
+                        <dd>
+                            <select name="state" class="combox">
+                                <option value="on" <if condition="$data['state'] eq on">selected</if>>上架</option>
+                                <option value="off" <if condition="$data['state'] eq off">selected</if>>下架</option>
+                            </select>
+                        </dd>
+                    </dl>
+                    <dl class="nowrap">
+                        <dt>市场价格</dt>
+                        <dd>
+                            <input type="text" name="buyPrice" value="{$data['buyPrice']}" NewsAdd emp="{empty:true}" mess="填写成立时间" />
+                        </dd>
+                    </dl>
+                    <dl class="nowrap">
+                        <dt>现售价格（积分加金额）</dt>
+                        <dd>
+                            <input type="text" name="jifen" value="{$data['jifen']}" />
+                            <input type="text" name="nowPrice" value="{$data['nowPrice']}" />
+                        </dd>
+                    </dl>
+                    <dl class="nowrap">
+                        <dt>商品详情</dt>
+                        <dd>
+                            <script id="detail" name="detail" type="text/plain" style="width:800px;height:500px;">{$data['detail']}</script>
+                        </dd>
+                    </dl>
+                </fieldset>
+            </div>
+        </div>
+        <div class="formBar">
+            <ul style="float:left">
+                <li style="margin-left: 125px; margin-right: 35px">
+                    <div class="buttonActive">
+                        <div class="buttonContent">
+                            <button type="submit">保存</button>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="button">
+                        <div class="buttonContent">
+                            <button type="button" class="close">关闭</button>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </form>
+</div>
+<script type="text/javascript" src="__PUBLIC__/ueditor/ueditor.config.js"></script>
+<script type="text/javascript" src="__PUBLIC__/ueditor/ueditor.all.js"></script>
+<script type="text/javascript">
+    var editor = new baidu.editor.ui.Editor();
+    //var ue = UE.getEditor('editor');
+    editor.render("detail");
+
+    function changeGrade(obj) {
+        $.ajax({
+            url: '{:U("Goods/gradechange")}',
+            type: 'post',
+            dataType: 'json',
+            data: { gradeId: obj.value },
+            success: function (data) {
+                if (data != null) {
+                    var sclass = data.search;
+                    var options = '';
+                    $('#w_combox_class').html('');
+                    for (var s = 0; s < sclass.length; s++) {
+                        options += '<option value="' + sclass[s].id + '">' + sclass[s].name + '</option>';
+                    }
+                    $('#w_combox_class').append(options);
+                }
+            }
+        });
+    }
+</script>

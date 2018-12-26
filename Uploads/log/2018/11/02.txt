@@ -1,0 +1,2 @@
+[Success][2018-11-02 08:55:28]账号【system】帐号验证通过！[Admin/Login/logincheck]
+[Success][2018-11-02 10:45:48]账号【ceshiadmin】帐号验证通过！[Admin/Login/logincheck]

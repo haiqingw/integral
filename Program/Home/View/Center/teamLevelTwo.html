@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,initial-scale=1.0,width=device-width" />
+		<meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+		<title>{:C('webTitle')}</title>
+		<link rel="stylesheet" type="text/css" href="{:C('webPublic')}css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="{:C('webPublic')}css/style.css" />
+		<link rel="stylesheet" type="text/css" href="{:C('webPublic')}css/common.css" />
+		<script type="text/javascript" src="{:C('webPublic')}js/jquery-1.8.3.min.js"></script>
+		<script src="{:C('webPublic')}js/doT.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="{:C('webPublic')}js/common.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function() {
+				useDot('#dotHtml', '#teamLevelTwoContainer', data);
+			})
+			var data = {$result};
+			if(data == null){
+				data = {};
+			}
+		</script>
+	</head>
+
+	<body>
+		<!--header start-->
+		<header class="subpageHeader">
+			<a class="aBackBtn" href="javascript:window.history.back();"><img src="{:C('webPublic')}images/backIcon.png" /></a>我的团队</header>
+		<!--header end-->
+		<!--subpage start-->
+		<section class="subpageMain">
+			<div class="teamLevelOneTotal">
+				<span>二级成员</span>
+				<em>共{$twoCts}人</em>
+			</div>
+			<div class="teamLevelTwoContainer" id="teamLevelTwoContainer"></div>
+		</section>
+		<!--subpage end-->
+	</body>
+	<script type="x-dot-template" id="dotHtml">
+		<ul class="teamLevelTwoListUl">
+			{{if(it.length>0){}} {{for(i in it){}}
+			<li class="line_bottom">
+				<img src="{:C('webPublic')}images/teamLevelOneIcon.png" />
+                {{=it[i].teamName}}<em>*</em>{{=it[i].teamTelPhone}}
+			</li>
+			{{}}} {{}else{}}
+			<!--暂无成员-->
+			<li class="teamLevelTwoListNoData">
+				<div class="noDataaMain">
+					<img src="{:C('webPublic')}images/noDataIconImg.png" />
+					<p>暂无团队成员</p>
+				</div>
+			</li>
+			{{}}}
+		</ul>
+	</script>
+
+</html>

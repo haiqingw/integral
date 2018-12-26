@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,initial-scale=1.0,width=device-width" />
+		<meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+		<title>{:C('webTitle')}</title>
+		<link rel="stylesheet" type="text/css" href="{:C('webPublic')}css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="{:C('webPublic')}css/common.css" />
+		<link rel="stylesheet" type="text/css" href="{:C('webPublic')}css/style.css" />
+		<script type="text/javascript" src="{:C('webPublic')}js/jquery-1.8.3.min.js"></script>
+		<script src="{:C('webPublic')}js/HomeCheck.js" type="text/javascript" charset="utf-8"></script>
+		<script src="{:C('webPublic')}js/layer.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			body,html{
+				height:100%;
+				background:url({:C('webPublic')}images/loginBgImg.png);
+				background-size:100% auto;
+				background-position:center top;
+				overflow:hidden;
+			}
+		</style>
+	</head>
+
+	<body>
+		<!--header start-->
+		<!--<header class="subpageHeader">
+			<a class="aBackBtn" href="javascript:history.go(-1)"><img src="images/backIcon.png" /></a>登录</header>-->
+		<!--header end-->
+		<section>
+			<div class="loginContainer">
+					<div class="outlineDiv">
+				        <a class="policyBtn" href="{:U('policy')}">查看分润政策</a>
+						<div class="innerlineDiv">
+							<div class="TipMain line_bottom">
+								<if condition="$loginType eq 'password'">
+								<img src="{:C('webPublic')}images/noticeIcon.png" /> <span class="useTitle">输入手机号和密码登录  <a href="javascript:window.location='?loginType=verify';">使用验证码登陆</a></span>
+								<elseif condition="$loginType eq 'verify'"/>
+								<img src="{:C('webPublic')}images/noticeIcon.png" /> <span class="useTitle">输入手机号和验证码登录  <a href="javascript:window.location='?loginType=password';">使用密码登陆</a></span>
+								</if>
+							</div>
+							<div class="loginFormMain">
+								<div class="FormItem line_bottom">
+									<span>手机号:</span>
+									<div>
+									  <input type="text" id="phoneVal" maxlength="11" placeholder="请输入您的手机号" emp="{empty:true,tel:true}" mess="输入手机号" />
+									</div>
+								</div>
+								<if condition="$loginType eq 'password'">
+								<div id="usepass" class="FormItem line_bottom">
+									<span>密 码:</span>
+									<div>
+										<input type="password" id="password" maxlength="18" placeholder="请输入您的密码" emp="{empty:true,zcpass:true}" mess="输入密码" />
+									</div>
+								</div>
+								<elseif condition="$loginType eq 'verify'"/>
+								<div id="useverify" class="FormItem verificationCode line_bottom">
+									<span>验证码:</span>
+									<div>
+									  <input type="text" maxlength="4" id="verifyCode" placeholder="请输入验证码" emp="{empty:true,number:true}" mess="输入验证码" />
+									  <a href="javascript:;" id="sendCode">获取验证码</a>
+									</div>
+								</div>
+								</if>
+							</div>
+							<!--按钮-->
+							<a class="sumbitButton" href="javascript:;" style="margin:20px auto 0;">立即登录</a>
+							<p class="questionBtn"><a href="{:U('register')}">还没有账号？立即注册</a></p>
+						</div>
+					</div>
+			</div>
+		</section>
+		<div class="overlazy"></div>
+	</body>
+	<script src="__PUBLIC__/js/function.js"></script>
+	<script type="text/javascript">
+		//验证
+		$(function() {
+			var $u = localStorage.HFuser;
+			var $p = localStorage.HFpass;
+			if($u != undefined){
+				$('#phoneVal').val($u);
+				$('#password').val($p);
+			}
+			//定位表单容器
+			<if condition="$loginType eq 'password'">
+			$('.sumbitButton').click(function() {
+				if ($('[emp]').checkinput()) {
+					mAjaxNL("{:U('AccountLoginCheckPass')}",{phone:$('#phoneVal').val(),pass:$('#password').val()},function(ret){
+						if(ret.status){
+							localStorage.HFuser = $('#phoneVal').val();
+							localStorage.HFpass = $('#password').val();
+							window.location = '{:U('Center/index')}';
+						}else{
+							layermsg(ret.msg);
+						}
+					});
+				}
+			})
+			<elseif condition="$loginType eq 'verify'"/>
+			$('.sumbitButton').click(function() {
+				if ($('[emp]').checkinput()) {
+					mAjaxNL("{:U('AccountLoginCheck')}",{phone:$('#phoneVal').val(),verifyCode:$('#verifyCode').val()},function(ret){
+						if(ret.status){
+							window.location = '{:U('Center/index')}';
+						}else{
+							layermsg(ret.msg);
+						}
+					});
+				}
+			})
+			//获取验证码
+			var timer = null;
+			var onOff = true;
+			$('#sendCode').click(function() {
+				if ($('#phoneVal').checkinput()) {
+					if (onOff) {
+						var phoneVal = $('#phoneVal').val();
+						//请求
+						$.ajax({
+							url: '{:U("sendLoginVerifyMessage")}',
+							type: 'POST',
+							async: true,
+							data: {
+								phone:phoneVal
+							},
+							timeout: 5000,
+							dataType: 'json',
+							success: function(ret) {
+								//请求成功
+								if (ret.status == 1) {
+									//验证码倒计时
+									var num = 60;
+									timer = setInterval(function() {
+										num--;
+										$('#sendCode').addClass('active').text('(' + num + 's' + ')' + '后重新发送');
+										if (num == 0) {
+											$('#sendCode').removeClass('active').text('发送验证码');
+											onOff = true;
+											clearInterval(timer);
+										}
+									}, 1000)
+								}else{
+									onOff = true;
+									//弹窗提示
+					                layer.open({
+					                    content: ret.msg,
+					                    skin: 'msg',
+					                    time: 2 //2秒后自动关闭
+					                  });
+								}
+							}
+						})
+						onOff = false;
+					}
+				}
+			})
+			</if>
+		})
+	</script>
+
+</html>

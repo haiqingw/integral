@@ -1,0 +1,5 @@
+[Success][2018-09-10 09:23:16]账号【system】帐号验证通过！[Admin/Login/logincheck]
+[Success][2018-09-10 09:26:39]账号【laijinkeji】帐号验证通过！[Admin/Login/logincheck]
+[Success][2018-09-10 09:42:21]账号【laijinkeji】帐号验证通过！[Admin/Login/logincheck]
+[Success][2018-09-10 14:57:13]账号【lanrenkeji】帐号验证通过！[Admin/Login/logincheck]
+[Success][2018-09-10 16:41:44]用户名为：System于 2018-09-10 16:41:44 IP为： 192.168.31.243添加权限名称为 数据列表保存成功[Admin/Auth/authaddfunction]

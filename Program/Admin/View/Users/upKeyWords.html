@@ -1,0 +1,20 @@
+<form onsubmit="return navTabSearch(this);" action="{:U('Class/index')}" method="post" id="ClassIndex">
+    <div class="searchBar">
+        <table class="searchContent">
+            <tr>
+                <td align="left">
+                </td>
+                <td align="right">
+                    关键词：<input type="text" value="{$keywords}" id="keywords" name="keywords" autocomplete="off"
+                        placeholder="请输入分类名称" style="width: 160px;" value="{$keywords}"/>
+                </td>
+
+                <td align="left">
+                    <div class="buttonActive">
+                        <div class="buttonContent"><button type="submit">检索</button></div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</form>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,initial-scale=1.0,width=device-width" />
+		<meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+		<title>{:C('webTitle')}</title>
+		<link rel="stylesheet" type="text/css" href="{:C('webPublic')}css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="{:C('webPublic')}css/common.css" />
+		<link rel="stylesheet" type="text/css" href="{:C('webPublic')}css/style.css" />
+		<script type="text/javascript" src="{:C('webPublic')}js/jquery-1.8.3.min.js"></script>
+		<script src="{:C('webPublic')}js/layer.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			html,body{
+				background:#ffb457;
+			}
+			.crowdCode {
+				position: relative;
+			}
+			
+			.QrcodeImg {
+				width: 42%;
+				height: 25%;
+				position: absolute;
+				left: 50%;
+				margin-left: -21%;
+				bottom: 13%;
+			}
+			.settingBtn{
+			  display:block;
+			  width:25px;
+			  height:25px;
+			  position:absolute;
+			  left:10px;
+			  top:10px;
+			  z-index: 99;
+			}
+		</style>
+	</head>
+	<body>
+		<a href="{:U('setting')}">
+			<img class="settingBtn" src="{:C('webPublic')}images/settingIcon.png"/>
+		</a>
+		<img class="collectImgTopRight" src="{:C('webPublic')}images/collectImg.png" alt="收藏网页" />
+		<section class="indexMenu">
+			<!--头部-->
+			<div class="indexMenuHeader">
+				<div class="indexMenuHeaderTop">
+					<p>总资产<em>(元)</em></p>
+					<div>{$balance}</div>
+				</div>
+				<div class="indexMenuHeaderSub">
+					<div>
+						<p>累计收益<em>(元)</em></p>
+						<div>{$sumSy}</div>
+					</div>
+					<div>
+						<p>可提现<em>(元)</em></p>
+						<div>{$balance}</div>
+					</div>
+				</div>
+			</div>
+			<!--按钮-->
+			<div class="indexMenuBody">
+				<a href="{:U('indexMenu')}" class="line_bottom_right">
+					<img src="{:C('webPublic')}images/indexMenuSK.png"/>
+					<p>注册收款</p>
+				</a>
+				<a href="{:U('bindCard')}" class="line_bottom_right">
+					<img src="{:C('webPublic')}images/indexMenuBk.png"/>
+					<p>绑定结算卡</p>
+				</a>
+				<a href="{:U('CommissionRecord')}" class="line_bottom_right">
+					<img src="{:C('webPublic')}images/indexMenuJl.png"/>
+					<p>佣金记录</p>
+				</a>
+				<a href="{:U('withdraw')}" class="line_bottom">
+					<img src="{:C('webPublic')}images/indexMenuFx.png"/>
+					<p>佣金提现</p>
+				</a>
+				<a href="{:U('team')}" class="line_right">
+					<img src="{:C('webPublic')}images/indexMenuTd.png"/>
+					<p>我的团队</p>
+				</a>
+				<a href="{:U('myQrcode')}" class="line_right">
+					<img src="{:C('webPublic')}images/indexMenuEWM.png"/>
+					<p>我的推广码</p>
+				</a>
+				<a href="http://www.51ley.com/f/card/index?uid=0eb16727964c452d8aafc4c9beb558f9&rm=1" class="line_right">
+					<img src="{:C('webPublic')}images/indexMenuBxyk.png"/>
+					<p>大额信用卡</p>
+				</a>
+				<a href="{:U('useDesc')}">
+					<img src="{:C('webPublic')}images/indexMenuSm.png"/>
+					<p>使用说明</p>
+				</a>
+			</div>
+			<div class="indexCodeMain">
+				<img class="arrButtonIcon  bounce animated infinite" src="{:C('webPublic')}images/arrButtonIcon.png"/>
+				<div class="crowdCode">
+					<img src="{:C('webPublic')}images/indexCodeImg.jpg"/>
+					<img class="QrcodeImg" src="{$qun}" />
+				</div>
+			</div>
+			<!--底部-->
+			<div class="footer_menu line_top">
+				<a href="javascript:;" class="line_right">首页</a>
+				<a href="javascript:isLog()" class="myBtn">退出登录</a>
+			</div>	
+		</section>
+	</body>
+</html>
+<script>
+function isLog() {
+	layer.open({
+		content : '您确定要退出登录吗？',
+		btn : [ '取消', '退出' ],
+		skin : 'footer',
+		no : function(index) {
+			window.location = "{:U('Center/logout')}";
+		}
+	});
+}
+$(function() {
+	$('.arrButtonIcon').click(function() {
+		var DocHeight = $(document).height() + 'px';
+		$('html,body').animate({
+			'scrollTop': DocHeight
+		}, 500)
+	})
+})
+</script>

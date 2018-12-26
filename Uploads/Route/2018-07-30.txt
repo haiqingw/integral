@@ -1,0 +1,359 @@
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'checkrertype',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'checkrertype',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'checkrertype',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'checkrertype',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'checkrertype',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'checkrertype',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'checkrertype',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'checkrertype',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'checkrertype',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'checkrertype',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'checkrertype',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'checkrertype',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'checkrertype',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'checkrertype',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'checkrertype',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'checkrertype',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'checkrertype',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'checkrertype',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'checkrertype',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'checkrertype',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'checkrertype',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'checkrertype',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'checkrertype',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'checkrertype',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'checkrertype',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'checkrertype',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'checkrertype',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'checkrertype',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'checkrertype',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'checkrertype',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'checkrertype',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'checkrertype',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'checkrertype',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'checkrertype',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'checkrertype',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'checkrertype',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'checkrertype',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'checkrertype',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'checkrertype',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'checkrertype',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'checkrertype',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'rechargenotic',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'rechargenotic',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'rechargenotic',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'rechargenotic',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'rechargenotic',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'rechargenotic',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'rechargenotic',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'rechargenotic',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'rechargenotic',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'rechargenotic',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'rechargenotic',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'rechargenotic',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'rechargenotic',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'rechargenotic',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'rechargenotic',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'rechargenotic',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'rechargenotic',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'rechargenotic',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'rechargenotic',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'rechargenotic',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'rechargenotic',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+)
+array (
+  'requestType' => 'Servicefee',
+  'requestKeywords' => 'rechargenotic',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+)

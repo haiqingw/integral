@@ -1,0 +1,3 @@
+[Success][2018-07-25 10:48:53]账号【system】帐号验证通过！[Admin/Login/logincheck]
+[Success][2018-07-25 11:36:46]账号【system】帐号验证通过！[Admin/Login/logincheck]
+[Success][2018-07-25 12:05:11]用户名为：System于 2018-07-25 12:05:11 IP为： 192.168.1.243添加权限名称为 服务费充值类型设置保存成功[Admin/Auth/authaddfunction]

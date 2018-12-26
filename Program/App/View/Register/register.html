@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta name="keywords" content="信息" />
+<meta name="description" content="信息" />
+<meta charset="utf-8" />
+<meta name="viewport"
+	content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="format-detection" content="email=no" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="revised" content="David, 2008/8/8/" />
+<meta name="renderer" content="webkit">
+<!-- 启用360浏览器的极速模式(webkit) -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!-- 避免IE使用兼容模式 -->
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<!-- 不让百度转码 -->
+<meta name="HandheldFriendly" content="true">
+<!-- 针对手持设备优化，主要是针对一些老的不识别viewport的浏览器，比如黑莓 -->
+<meta name="screen-orientation" content="portrait">
+<!-- uc强制竖屏 -->
+<meta name="x5-orientation" content="portrait">
+<!-- QQ强制竖屏 -->
+<meta name="full-screen" content="yes">
+<!-- UC强制全屏 -->
+<meta name="x5-fullscreen" content="true">
+<!-- QQ强制全屏 -->
+<meta name="msapplication-tap-highlight" content="no">
+<!-- windows phone 点击无高光 -->
+<!--ios系统的meta/link设置-->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<!--开启对web app程序的支持-->
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<!--改变顶部状态条的颜色-->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<!-- IOS6全屏 Chrome高版本全屏-->
+<meta name="mobile-web-app-capable" content="yes">
+<!-- IOS6全屏 Chrome高版本全屏-->
+<title>益点合伙人</title>
+<link rel="stylesheet" href="__PUBLIC__/partner/css/reset.css" />
+<link rel="stylesheet" type="text/css"
+	href="__PUBLIC__/partner/css/style.css" />
+<style type="text/css">
+section img {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+section .sectionAMain {
+	position: fixed;
+	left: 50%;
+	margin-left: -45%;
+	bottom: 0;
+	width: 90%;
+	background: #ffdce8;
+}
+
+.sectionAMain a:nth-child(1) {
+	display: block;
+	height: 40px;
+	line-height: 41px;
+	overflow: hidden;
+	text-align: center;
+	font-size: 16px;
+	color: #fffcca;
+	background: #ff5f27;
+}
+
+.sectionAMain a:nth-child(2) {
+	display: block;
+	text-align: center;
+	line-height: 40px;
+	font-size: 14px;
+	color: #000;
+}
+</style>
+</head>
+<body>
+	<section>
+		<img src="__PUBLIC__/partner/images/register_{$pid}.jpg" />
+
+		<div class="sectionAMain">
+			<a href="{:U('Register/intro')}?bid={$bid}">立即注册</a>
+			<if></if>
+			<if></if>
+			<if> <a
+				href="{:U('Register/download')}?pid={$pid}">已有账号点击下载</a></if>
+		</div>
+	</section>
+</body>
+</html>

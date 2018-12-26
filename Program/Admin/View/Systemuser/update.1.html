@@ -1,0 +1,48 @@
+<div class="pageContent">
+	<form method="post" action="{:U('Systemuser/updateFunction')}" class="pageForm required-validate" onsubmit="return validateCallback(this, navTabAjaxDone);">
+		<div class="pageFormContent" layoutH="55">
+			<p style="clear: both;">
+				<label>用户账号：</label>
+				<input name="lrUserName" class="required" type="text" size="30" value="{$info['usertable_Name']}" alt="请输入账号名称" />
+			</p>
+			<p style="clear: both;width: 100%">
+				<font style="margin-left: 130px;">提示：用户账号作为登陆使用</font>
+			</p>
+			<p style="clear: both;">
+				<label>所属角色：</label>
+				<select name="roleID" class="required combox">
+					<option value="" >请选择</option>
+					<foreach name="roles" item="v">
+						<option value="{$v.role_id}" <if condition="$info[['usertable_Role_id'] eq ['$v.role_id']">selected="selected"</if> >{$v.role_name}</option>
+					</foreach>
+				</select>
+			</p>
+			<p style="clear: both;">
+				<label>联系手机：</label>
+				<input class="tel  required" name="lrUserPhone" type="text" size="30" value="{$info['usertable_Phone']}" />
+			</p>
+			<p style="clear: both;">
+				<label>联系邮箱：</label>
+				<input class="email" name="lrUserEmail" type="text" size="30" value="{$info['usertable_Email']}"/>
+			</p>
+		</div>
+		<div class="formBar">
+			<ul style="float: left; margin-left: 123px;">
+				<li style="margin-right: 20px;">
+					<div class="buttonActive">
+						<div class="buttonContent">
+							<button type="submit">保存</button>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="button">
+						<div class="buttonContent">
+							<button type="button" class="close">取消</button>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</form>
+</div>

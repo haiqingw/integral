@@ -1,0 +1,5 @@
+[Success][2018-09-13 09:05:31]账号【shkj】帐号验证通过！[Admin/Login/logincheck]
+[Success][2018-09-13 09:06:55]账号【system】帐号验证通过！[Admin/Login/logincheck]
+[Success][2018-09-13 09:07:39]账号【laijinkeji】帐号验证通过！[Admin/Login/logincheck]
+[Success][2018-09-13 14:30:39]用户名为：System于 2018-09-13 14:30:39 IP为： 192.168.31.243删除用户成功[Admin/Systemuser/systemdel]
+[Success][2018-09-13 14:30:50]用户名为：System于 2018-09-13 14:30:50 IP为： 192.168.31.243更改的账号名称为：闪POS状态：更改成功[Admin/Systemuser/systemmodifyfunction]

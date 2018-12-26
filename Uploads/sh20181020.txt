@@ -1,0 +1,11 @@
+[null||||array (
+  'bid' => '2921',
+  'ordernum' => 'BSYTX2018101727738',
+  'money' => '8.20',
+  'bankid' => '877',
+)][null||||array (
+  'bid' => '2921',
+  'ordernum' => 'BSYTX2018101700980',
+  'money' => '7.20',
+  'bankid' => '877',
+)]

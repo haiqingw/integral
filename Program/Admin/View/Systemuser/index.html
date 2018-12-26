@@ -1,0 +1,84 @@
+<form id="pagerForm" method="post" action="{:U('systemlist')}">
+	<input type="hidden" name="status" value="${param.status}">
+	<input type="hidden" name="keywords" value="${param.keywords}" />
+	<input type="hidden" name="pageNum" value="1" />
+	<!--每页显示多少条数据开始-->
+	<input type="hidden" name="numPerPage" value="{$numPerPage}" />
+	<!--每页显示多少条数据开始-->
+	<input type="hidden" name="orderField" value="${param.orderField}" />
+</form>
+<div class="pageContent">
+	<div class="panelBar">
+		<ul class="toolBar">
+			<li>
+				<a class="add" href="{:U('Systemuser/add')}" target="navTab" rel="systemadd">
+					<span>添加</span>
+				</a>
+			</li>
+			<li class="line">line</li>
+			<li>
+				<a class="edit" href="{:U('Systemuser/update')}?uid={sid_user}" target="navTab">
+					<span>修改</span>
+				</a>
+			</li>
+			<li class="line">line</li>
+			<li>
+				<a title="确定要删除这些记录吗?" target="selectedTodo" rel="decldel" postType="string" href="{:U('Systemuser/del')}"
+                    class="delete"><span>删除</span></a>
+			</li>
+		</ul>
+	</div>
+	<table class="table" width="100%" layoutH="75">
+		<thead>
+			<tr>
+				<th width="2%"><input type="checkbox" group="decldel" class="checkboxCtrl"></th>
+				<th width="80" align="center">ID编号</th>
+				<th width="120" align="center">用户账号</th>
+				<th width="120" align="center">用户密码</th>
+				<th width="120" align="center">所属角色</th>
+				<th width="100" align="center">用户手机</th>
+				<th width="150" align="center">用户邮箱</th>
+				<!-- <th width="150" align="center">创建区域</th> -->
+				<th width="100" align="center">创建时间</th>
+				<th width="80" align="center">创建IP</th>
+			</tr>
+		</thead>
+		<if condition="$totalCount gt 0">
+			<tbody>
+				<volist name="data" id="v">
+					<tr target="sid_user" rel="{$v.usertable_ID}">
+						<td><input name="decldel" value="{$v.usertable_ID}" type="checkbox"></td>
+						<td align="center">{$v.usertable_ID}</td>
+						<td align="center">{$v.usertable_Name}</td>
+						<td align="center">密码已加密</td>
+						<td align="center">{$v.rolename}</td>
+						<td align="center">{$v.usertable_Phone}</td>
+						<td align="center">{$v.usertable_Email}</td>
+						<!-- <td align="center">{$v.usertable_createarea}</td> -->
+						<td align="center">{$v.usertable_createtime}</td>
+						<td align="center">{$v.usertable_createip}</td>
+					</tr>
+				</volist>
+			</tbody>
+			<else/>
+			<tbody>
+				<tr>
+					<td align="center" colspan="8" style="color:red;">抱歉， 没有找到符合的记录！</td>
+				</tr>
+			</tbody>
+		</if>
+	</table>
+	<div class="panelBar">
+		<div class="pages">
+			<span>显示</span>
+			<select class="combox" name="numPerPage" onchange="navTabPageBreak({numPerPage:this.value})">
+				<option value="20" <if condition="$numPerPage eq 20">selected="selected"</if>>20</option>
+				<option value="50" <if condition="$numPerPage eq 50">selected="selected"</if>>50</option>
+				<option value="100" <if condition="$numPerPage eq 100">selected="selected"</if>>100</option>
+				<option value="200" <if condition="$numPerPage eq 200">selected="selected"</if>>200</option>
+			</select>
+			<span>条，共{$totalCount}条</span>
+		</div>
+		<div class="pagination" targetType="navTab" totalCount="{$totalCount}" numPerPage="{$numPerPage}" pageNumShown="10" currentPage="{$page}"></div>
+	</div>
+</div>

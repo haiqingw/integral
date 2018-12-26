@@ -1,0 +1,2 @@
+[Success][2018-04-27 14:17:03]用户名为：System于 2018-04-27 14:17:03 IP为： 0.0.0.0添加权限名称为 星支付交易列表保存成功[Admin/Auth/authaddfunction]
+[Success][2018-04-27 14:17:19]用户名为：System于 2018-04-27 14:17:19 IP为： 0.0.0.0添加权限名称为 星支付商户列表保存成功[Admin/Auth/authaddfunction]

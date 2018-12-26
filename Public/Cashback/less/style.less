@@ -1,0 +1,267 @@
+.CashBackContainer{
+    width:1002px;
+    margin:0 auto;
+    height:100%;
+    position: relative;
+}
+.cashBackHeader{
+    justify-content: space-around;
+    padding:20px 0;
+    border-bottom:1px solid #ccc;
+    position: absolute;
+    width:100%;
+    box-sizing:border-box;
+    background:#fff;
+}
+.cashBackItem{
+    width:250px;
+    box-shadow:0 0 4px #ccc;
+    height:50px;
+    line-height:50px;
+    padding:0 20px 0 60px;
+    position: relative;
+    input{
+        width:100%;
+        height:50px;
+        border:none;
+        background:none;
+        position: relative;
+        top:-1px;
+        font-size:16px;
+    }
+    select{
+        width:100%;
+        height:50px;
+        border:none;
+        background:none;
+        position: relative;
+        top:-1px;
+        font-size:16px;
+        appearance: none;   
+        -webkit-appearance: none;  
+    }
+    &.arrBottomIcon{
+        background:url(../images/arrBottomImg.png) no-repeat 295px center;
+        background-size:20px 20px;
+    }
+    &.redTipJe:before{
+        content:'金额';
+        display: block;
+        width:40px;
+        height:20px;
+        line-height:20px;
+        background:#f33;
+        color:#fff;
+        text-align:center;
+        font-size:12px;
+        position: absolute;
+        left:10px;
+        top:50%;
+        margin-top:-10px;
+    }
+    &.redTipTj:before{
+        content:'条件';
+        display: block;
+        width:40px;
+        height:20px;
+        line-height:20px;
+        background:#f33;
+        color:#fff;
+        text-align:center;
+        font-size:12px;
+        position: absolute;
+        left:10px;
+        top:50%;
+        margin-top:-10px;
+    }
+}
+.cashBackBody{
+    overflow:hidden;
+    padding-top:91px;
+    height:100%;
+    box-sizing:border-box;
+    >div{
+        position: relative;
+        height:100%;
+        width:50%;
+        float:left;
+        box-sizing:border-box;
+        &:first-of-type{
+            border-right:1px solid #ccc;
+        }
+        h3{
+            padding:20px;
+            font-size:20px;
+            position: absolute;
+            width:100%;
+            left:0;
+            top:0;
+            background:#fff;
+            box-sizing:border-box;
+            z-index:999;
+            a{
+                font-size:14px;
+                color:#f33;
+                float:right;
+                display: block;
+                line-height:28px;
+                height:28px;
+            }
+        }
+    }
+}
+.cashBackSettingBox{
+    padding:70px 20px 20px;
+    height:100%;
+    box-sizing:border-box;
+    overflow-x:hidden;
+}
+.cashBackSettingItem{
+    box-shadow:0 0 3px #ccc;
+    padding:10px;
+    margin-bottom:20px;
+}
+.cashBackInputItem{
+    height:50px;
+    line-height:50px;
+    border-bottom:1px solid #ccc;
+    padding:0 20px 0 60px;
+    position: relative;
+    &.redTipJe:before{
+        content:'金额';
+        display: block;
+        width:40px;
+        height:20px;
+        line-height:20px;
+        background:#f33;
+        color:#fff;
+        text-align:center;
+        font-size:12px;
+        position: absolute;
+        left:10px;
+        top:50%;
+        margin-top:-10px;
+    }
+    &.redTipGs::before{ 
+        content:'个数';
+        display: block;
+        width:40px;
+        height:20px;
+        line-height:20px;
+        background:#f33;
+        color:#fff;
+        text-align:center;
+        font-size:12px;
+        position: absolute;
+        left:10px;
+        top:50%;
+        margin-top:-10px; 
+    }
+    input{
+        height:50px;
+        border:none;
+        background:none;
+        width:100%;
+        font-size:16px;
+    }
+}
+.cashBackInputItemShuang{
+    height:80px;
+    line-height:80px;
+    border-bottom:1px solid #ccc;
+    padding:0 0 0 60px;
+    position: relative;
+    &.redTipBl:before{
+        content:'比例';
+        display: block;
+        width:40px;
+        height:20px;
+        line-height:20px;
+        background:#f33;
+        color:#fff;
+        text-align:center;
+        font-size:12px;
+        position: absolute;
+        left:10px;
+        top:50%;
+        margin-top:-10px;
+    }
+    &.redTipJe::before{
+        content:'金额';
+        display: block;
+        width:40px;
+        height:20px;
+        line-height:20px;
+        background:#f33;
+        color:#fff;
+        text-align:center;
+        font-size:12px;
+        position: absolute;
+        left:10px;
+        top:50%;
+        margin-top:-10px;   
+    }
+    div.singleInput{
+        >input{
+            height:80px;
+            border:none;
+            background:none;
+            font-size:16px;
+            width:140px;
+            float: left;
+        }
+        div.doubleInput{
+            width:239px;
+            height:80px;
+            line-height:40px;
+            float: right;
+            border-left:1px solid #ccc;
+            div{
+                height:40px;
+                line-height:40px;
+                padding:0 10px 0 70px;
+                position: relative;
+                &:first-of-type{
+                    border-bottom:1px solid #ccc;
+                    box-sizing:border-box;
+                }
+                &.xykTip::before{
+                    content:'借记卡';
+                    display: block;
+                    width:50px;
+                    height:20px;
+                    line-height:20px;
+                    background:#f33;
+                    color:#fff;
+                    text-align:center;
+                    font-size:12px;
+                    position: absolute;
+                    left:10px;
+                    top:50%;
+                    margin-top:-10px;
+                }
+                &.djkTip::before{
+                    content:'贷记卡';
+                    display: block;
+                    width:50px;
+                    height:20px;
+                    line-height:20px;
+                    background:skyblue;
+                    color:#fff;
+                    text-align:center;
+                    font-size:12px;
+                    position: absolute;
+                    left:10px;
+                    top:50%;
+                    margin-top:-10px;
+                }
+                input{
+                    height:40px;
+                    border:none;
+                    background:none;
+                    font-size:16px;
+                }
+            }
+        }
+    }
+}

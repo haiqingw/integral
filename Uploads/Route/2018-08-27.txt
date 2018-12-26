@@ -1,0 +1,1631 @@
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'personal',
+  'requestKeywords' => 'getassets',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => 'eae27d77ca20db309e056e3d2dcd7d69',
+  'userPhone' => 'MsTjUfzwMpzoIr3wMeTjEczlMazmQlO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'types' => 'days',
+)
+array (
+  'requestType' => 'funds',
+  'requestKeywords' => 'merchandise',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'types' => 'days',
+)

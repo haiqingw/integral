@@ -1,0 +1,20 @@
+array (
+  'requestType' => 'list',
+  'requestKeywords' => 'apphelp',
+  'platformID' => '175',
+)
+array (
+  'requestType' => 'list',
+  'requestKeywords' => 'apphelp',
+  'platformID' => '175',
+)
+array (
+  'requestType' => 'list',
+  'requestKeywords' => 'apphelp',
+  'platformID' => '175',
+)
+array (
+  'requestType' => 'list',
+  'requestKeywords' => 'apphelp',
+  'platformID' => '175',
+)

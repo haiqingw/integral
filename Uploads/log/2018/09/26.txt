@@ -1,0 +1,4 @@
+[Success][2018-09-26 09:20:04]账号【lanrenkeji】帐号验证通过！[Admin/Login/logincheck]
+[Success][2018-09-26 09:53:00]账号【system】帐号验证通过！[Admin/Login/logincheck]
+[Success][2018-09-26 09:54:06]用户名为：System于 2018-09-26 09:54:06 IP为： 192.168.31.243添加权限名称为 装机管理保存成功[Admin/Auth/authaddfunction]
+[Success][2018-09-26 11:08:06]账号【shkj】帐号验证通过！[Admin/Login/logincheck]

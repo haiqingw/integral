@@ -1,0 +1,232 @@
+/* 新闻详情页 */
+
+.newsBox {
+    padding: 12px 10px 10px;
+}
+
+.newsHeader>h3 {
+    font-size: 18px;
+    font-family: '黑体';
+    line-height: 24px;
+    color: #333;
+    text-align: justify;
+}
+
+.newsHeader>p {
+    line-height: 30px;
+    overflow: hidden;
+    font-size: 16px;
+    color: #ccc;
+}
+
+.newsHeader>p span {
+    float: left;
+}
+
+.newsHeader>p em {
+    float: right;
+    font-size: 14px;
+}
+
+.newsHeader>p em img {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: -1px;
+    margin-right: 5px;
+}
+
+.newsMain {
+    padding: 10px 0;
+    font-size: 14px;
+    color: #666;
+    line-height: 26px;
+    text-align: justify;
+}
+
+.footerAdBox {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+/* 新闻列表 */
+
+.newsListContainer {
+    padding-top: 80px;
+}
+
+.newsListContainer.verticalNewsList {
+    padding-left: 80px;
+    padding-top:40px;
+}
+
+.newsListMain {
+    padding: 10px;
+}
+
+.newsListItem {
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 5px 5px 0;
+}
+
+.newsListItem>a {
+    display: block;
+    color: #999;
+}
+
+.newsListItem>a h3 {
+    font-size: 14px;
+    line-height: 20px;
+    padding-bottom: 5px;
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.newsListItem>a p {
+    line-height: 37px;
+    height: 36px;
+    overflow: hidden;
+    padding: 0 5px;
+    font-size: 14px;
+}
+
+.newsListItem>a p span {
+    float: left;
+}
+
+.newsListItem>a p em {
+    float: right;
+    font-size: 14px;
+}
+
+.newsListItem>a p em img {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: -1px;
+    margin-right: 5px;
+}
+
+/* 暂无数据 */
+
+.noDataView {
+    text-align: center;
+    padding-top: 20%;
+}
+
+.noDataView img {
+    width: 120px;
+    height: 120px;
+}
+
+.noDataView p {
+    display: block;
+    line-height: 50px;
+    font-size: 18px;
+}
+
+.upslideLoading {
+    height: 30px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.classifyTap {
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 40px;
+    z-index: 999;
+}
+.verticalTab.classifyTap{
+    width:80px;
+    bottom:0;
+    overflow-x:hidden;
+} 
+.classifyTap a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+}
+
+.classifyTap a:last-of-type {
+    background: #fff;
+}
+
+.classifyTap a.active::before {
+    content: '';
+    display: block;
+    width: 60%;
+    height: 2px;
+    background: #f33;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    margin-left: -30%;
+}
+.verticalTab.classifyTap a.active{
+    width:100%;
+    margin-left:0;
+    left:0;
+    background:#00aeff;
+    color:#fff;
+}
+.verticalTab.classifyTap a.active::before{
+    display: none;
+}
+.msgdetail{
+  background:#fff;
+  position:fixed;
+  left:0;
+  right:0;
+  bottom:0;
+  top:0;	
+  z-index:9999;
+}
+.msgdetailBody{
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	overflow-x:hidden;
+}
+.loadingMoreBtn{
+	display:block;
+	width:30%;
+	height:35px;
+	line-height:36px;
+	text-align:center;
+	font-size:14px;
+	color:#fff;
+	background:#00aeff;
+	border-radius:5px;
+	margin:20px auto;
+}
+.loadingMoreBtn.noDataLoading{
+	background:#f1f1f1;
+	color:#333;
+	margin:0 auto;
+	line-height:16px;
+}
+
+
+
+
+
+
+
+

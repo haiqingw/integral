@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,initial-scale=1.0,width=device-width" />
+	<meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>三人共创</title>
+	<link rel="stylesheet" href="__PUBLIC__/Home/css/reset.css">
+	<link rel="stylesheet" href="__PUBLIC__/Home/css/style.css">
+</head>
+
+<body>
+	<div class="registeredHeaderMain">
+		<img src="__PUBLIC__/Home/images/registeredHeaderImg.jpg?2342545" alt=""> <!-- <a href="introduce.html">产品介绍</a> -->
+	</div>
+	<!-- 注册信息 -->
+	<section class="registerMain">
+		<div class="inputMain">
+			<a href="{:U('Register/success')}" style="font-weight: bold;color:#F33;" class="downloadApp">已有账号？立即下载三人共创APP</a>
+			<!--单条数据 开始-->
+			<input type="hidden" name="id" id="id" value="{$info.id}" /> <input type="hidden" name="resType" id="resType" value="{$resType}" />
+			<div class="inputDiv">
+				<em>姓 名</em>
+				<div>
+					<input type="text" id="name" placeholder="请输入真实姓名" emp="{empty:true}" mess="输入真实姓名">
+				</div>
+			</div>
+			<!--单条数据 开始-->
+			<div class="inputDiv">
+				<em>手机号</em>
+				<div>
+					<input id="phoneNum" type="tel" maxlength="11" placeholder="请输入手机号" emp="{empty:true,tel:true}" mess="输入手机号">
+				</div>
+			</div>
+			<!--单条数据 结束-->
+			<!--单条数据 开始-->
+			<div class="inputDiv">
+				<em>验证码</em>
+				<div>
+					<input type="tel" maxlength="4" id="verify" placeholder="请输入验证码" emp="{empty:true,number:true}" mess="输入验证码">
+				</div>
+				<a id="vCodeBtn" href="javascript:;">获取验证码</a>
+			</div>
+			<!--单条数据 结束-->
+			<!--单条数据 开始-->
+			<div class="inputDiv">
+				<em>邀请码</em>
+				<div>
+					<input id="InviteCode" type="tel" placeholder="邀请码" value="{$info.code}" disabled="disabled">
+				</div>
+			</div>
+			<!--单条数据 结束-->
+			<!--单条数据 开始-->
+			<div class="inputDiv">
+				<em>设置密码</em>
+				<div>
+					<input id="passWord" type="password" placeholder="请输入密码" emp="{empty:true,zcpass:true}" mess="输入密码">
+				</div>
+			</div>
+			<!--单条数据 结束-->
+			<!--单条数据 开始-->
+			<div class="inputDiv">
+				<em>确认密码</em>
+				<div>
+					<input type="password" placeholder="请再次输入密码" emp="{empty:true,compassw:'#passWord'}" mess="再次输入密码">
+				</div>
+			</div>
+			<!--单条数据 结束-->
+			<p class="UserAgreement">
+				点击“确认提交”及表示同意《<a href='{:U("protocol")}'>三人共创用户协议</a>》
+			</p>
+			<a href="javascript:;" class="submitBtn"> 确认提交 </a>
+		</div>
+	</section>
+	<!-- /注册信息 -->
+	<script src="__PUBLIC__/Home/js/jquery-1.8.3.min.js"></script>
+	<script src="__PUBLIC__/Home/js/HomeCheck.js?389205830"></script>
+	<script src="__PUBLIC__/Home/js/layer.js"></script>
+	<script type="text/javascript">
+		var timer = null;
+		var onOff = true;
+		var $timeNum = 60;
+		var $verifyCode;
+		var $phoneNum;
+		var $id;
+		var $resType;
+		$(function () {
+			// 点击确认提交
+			$('.submitBtn').click(function () {
+				if ($('[emp]').checkinput()) {
+					$phoneNum = $('#phoneNum').val();
+					var $InviteCode = $('#InviteCode').val();
+					var $passWord = $('#passWord').val();
+					$id = $("#id").val();
+					$resType = $("#resType").val();
+					var $name = $("#name").val();
+					var $verify = $("#verify").val();
+					//开始请求
+					$.ajax({
+						url: '{:U("Register/doRegister")}',
+						type: 'POST', //GET
+						async: true, //或false,是否异步
+						data: {
+							id: $id,
+							name: $name,
+							phone: $phoneNum,
+							resType: $resType,
+							password: $passWord,
+							verify: $verify
+						},
+						timeout: 5000, //超时时间
+						dataType: 'json', //返回的数据格式：json/xml/html/script/jsonp/text
+						success: function (data, textStatus, jqXHR) {
+							layer.open({
+								content: data.msg,
+								skin: 'msg',
+								time: 3
+								//2秒后自动关闭
+							});
+							if (data.status == 1) {
+								window.location.href = data.url;
+							}
+						},
+						error: function (xhr, textStatus) {
+
+						}
+					})
+				}
+			});
+			//点击获取验证码
+			$('#vCodeBtn').click(function () {
+				if ($('#phoneNum').checkinput()) {
+					$('#phoneNum').attr('disabled', 'disabled');
+					$phoneNum = $('#phoneNum').val();
+					$id = $("#id").val();
+					$resType = $("#resType").val();
+					if (onOff) {
+						$('#vCodeBtn').addClass('active').text('发送中');
+						onOff = false;
+						//开始请求
+						$.ajax({
+							url: '{:U("Register/sendVerify")}',
+							type: 'POST', //GET
+							async: true, //或false,是否异步
+							data: {
+								phone: $phoneNum,
+								id: $id,
+								resType: $resType,
+								sendType: "register"
+							},
+							timeout: 5000, //超时时间
+							dataType: 'json', //返回的数据格式：json/xml/html/script/jsonp/text
+							success: function (data,
+								textStatus, jqXHR) {
+								if (data.status == 1) {
+									$verifyCode = data.code;
+									timer = setInterval(
+										function () {
+											$timeNum--;
+											$('#vCodeBtn').addClass('active').text($timeNum + 's后重新获取');
+											if ($timeNum == 0) {
+												clearInterval(timer);
+												$timeNum = 60;
+												onOff = true;
+												$('#vCodeBtn').removeClass('active').text('获取验证码');
+												$('#phoneNum').attr('disabled', '');
+											}
+										}, 1000);
+								}
+							},
+							error: function (xhr, textStatus) { }
+						})
+					}
+				}
+			})
+		})
+	</script>
+</body>
+
+</html>

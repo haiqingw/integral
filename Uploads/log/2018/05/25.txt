@@ -1,0 +1,2 @@
+[Success][2018-05-25 11:12:52]账号【system】帐号验证通过！[Admin/Login/logincheck]
+[Success][2018-05-25 16:41:27]用户名为：System于 2018-05-25 16:41:27 IP为： 0.0.0.0添加权限名称为 银惠通交易列表保存成功[Admin/Auth/authaddfunction]

@@ -1,0 +1,137 @@
+[Success][2018-06-01 09:20:00]账号【18748106798】帐号验证通过！[Admin/Login/logincheck]
+[Success][2018-06-01 09:21:14][2-1][posdata_yinhuitong][6]订单数据[{"terminalNo":"1001314597","plat":"175","tradeOrderNo":"310483869122","tradeAmt":"2199.00"}]查询条件[{"processStatus":1,"id":"6"}]next[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:21:14][3][posdata_yinhuitong][6]未处理的数据[{"terminalNo":"1001314597","plat":"175","tradeOrderNo":"310483869122","tradeAmt":"2199.00"}]next[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:21:14][4][posdata_yinhuitong][6]规则获取成功[{"activateTheStandard":"5000.00","ownStandardCashback":"0.00","standardCashback":"50.00","commodityID":"11","ownCashbackRatio":"0.00030","superiorCashbackRatio":"0.00005","levelOneService":"0.00015","levelTwoService":"0.00005","activeType":"3"}]next[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:21:14][5][posdata_yinhuitong][6]找到了终端详情[{"commodityID":"11","userID":"232","orderID":"65","isActive":"1","terminalNo":"1001314597"}]next[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:21:14][6][posdata_yinhuitong][6]商户正常[18347111168]processStatus更改成功有返现next[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:21:14][7][posdata_yinhuitong][6]remark准备好[183****1168交易2199.00]next[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:21:14][8][posdata_yinhuitong][6]商户状态正常且返现金额正常[232][0.65][1]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:21:14][9][posdata_yinhuitong][6]返现表中无异常数据[{"outputAN":"232","receiveAN":"232","tableName":"posdata_yinhuitong","tableid":"6","uniqueIndex":"310483869122","cashType":"trade","agentLevel":1}][232][0.65][1]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:21:14][10][posdata_yinhuitong][6]交易返现添加钱包[{"bid":"232","money":"0.65","ordernum":"310483869122","tranType":"Z","storageType":"JY","platform_id":"175","remark":"183****1168交易2199.00"}][1][232][0.65][1]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:21:14][11][posdata_yinhuitong][6]交易返现添加钱包成功并找上级[208][1][232][0.65][2]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:21:14][8][posdata_yinhuitong][6]商户状态正常且返现金额正常[208][0.10][2]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:21:14][9][posdata_yinhuitong][6]返现表中无异常数据[{"outputAN":"232","receiveAN":"208","tableName":"posdata_yinhuitong","tableid":"6","uniqueIndex":"310483869122","cashType":"trade","agentLevel":2}][208][0.10][2]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:21:14][10][posdata_yinhuitong][6]交易返现添加钱包[{"bid":"208","money":"0.10","ordernum":"310483869122","tranType":"Z","storageType":"JY","platform_id":"175","remark":"183****1168交易2199.00"}][1][208][0.10][2]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:21:14][11][posdata_yinhuitong][6]交易返现添加钱包成功并找上级[204][1][208][0.10][3]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:21:14][58][posdata_yinhuitong][6]商户状态正常且返现金额正常[204][0.32][1]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:21:14][59][posdata_yinhuitong][6]返现表中无异常数据[{"outputAN":"232","receiveAN":"204","tableName":"posdata_yinhuitong","tableid":"6","uniqueIndex":"310483869122","cashType":"agent","agentLevel":1}][204][0.32][1]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:21:14][60][posdata_yinhuitong][6]交易返现添加钱包[{"bid":"204","money":"0.32","ordernum":"310483869122","tranType":"Z","storageType":"JY","platform_id":"175","remark":"183****1168交易2199.00"}][1][204][0.32][1]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:21:14][61][posdata_yinhuitong][6]交易返现添加钱包成功并找上级服务商[202][1][204][0.32][2]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:21:14][58][posdata_yinhuitong][6]商户状态正常且返现金额正常[202][0.10][2]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:21:14][59][posdata_yinhuitong][6]返现表中无异常数据[{"outputAN":"232","receiveAN":"202","tableName":"posdata_yinhuitong","tableid":"6","uniqueIndex":"310483869122","cashType":"agent","agentLevel":2}][202][0.10][2]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:21:14][60][posdata_yinhuitong][6]交易返现添加钱包[{"bid":"202","money":"0.10","ordernum":"310483869122","tranType":"Z","storageType":"JY","platform_id":"175","remark":"183****1168交易2199.00"}][1][202][0.10][2]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:21:14][61][posdata_yinhuitong][6]交易返现添加钱包成功并找上级服务商[0][1][202][0.10][3]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:21:14][12][posdata_yinhuitong][6]未激活以及remark[183****1168激活机具]next[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:21:14][13][posdata_yinhuitong][1001314597]银惠通条件3激活next[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:21:14][14][posdata_yinhuitong][1527765985]银惠通激活next[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:21:14][14][posdata_yinhuitong][20180531][{"terminalNo":"1001314597","_string":"createDate >= '20180531' and createDate <= '20180630'"}][7199.00]银惠通激活next[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:21:14][15][posdata_yinhuitong][5000.00][7199.00]银惠通激活next[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:21:14][17][posdata_yinhuitong][{"id":"65","bid":"232","proid":"11","sid":"28","procid":"13","ordernum":"2018053170935","orderTime":"1527765345","payTime":"1527765360","consignee":"马花云","consigneePhone":"18347111168","province":"内蒙古自治区","city":"呼和浩特市","area":"新城区","address":"沙梁村","isPay":"1","isOrder":"1","isShip":"1","shipTime":null,"orderMoney":"0.00","depositMoney":"120.00","isDeposit":"1","isDepositRefund":"1","RefundFailReason":null,"depositTime":null,"plat":"175","remark":"","isReceipt":"2","receiptTime":"1527775399","isActivate":"2","wxpayMoney":"120.00","wxIsPay":"2","freight":"0.00","courierName":"自提","waybillNumber":"0123456789","terminalNumber":"1001314597","consignor":"0"}]激活找订单next[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:21:14][18][posdata_yinhuitong][12000][12000]退押金判断总金额和退款金额next[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:21:15][19][posdata_yinhuitong][null]退押金失败next[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:21:15][20][posdata_yinhuitong]存在上级，给上级激活返现[208]next[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:21:15][21][posdata_yinhuitong]没有给上级激活返现[{"outputAN":"232","receiveAN":"208","tableName":"posdata_yinhuitong","tableid":"65","uniqueIndex":"1001314597","cashType":"active","agentLevel":2}]next[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:21:15][22][posdata_yinhuitong]激活返现最后一步[{"bid":"208","money":"50.00","ordernum":"1001314597","tranType":"Z","storageType":"JH","platform_id":"175","remark":"183****1168激活机具"}][Array][1]next[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:23:58][2-1][posdata_yinhuitong][5]订单数据[{"terminalNo":"1001314597","plat":"175","tradeOrderNo":"310483863794","tradeAmt":"5000.00"}]查询条件[{"processStatus":1,"id":"5"}]next[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:23:58][3][posdata_yinhuitong][5]未处理的数据[{"terminalNo":"1001314597","plat":"175","tradeOrderNo":"310483863794","tradeAmt":"5000.00"}]next[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:23:58][4][posdata_yinhuitong][5]规则获取成功[{"activateTheStandard":"5000.00","ownStandardCashback":"0.00","standardCashback":"50.00","commodityID":"11","ownCashbackRatio":"0.00030","superiorCashbackRatio":"0.00005","levelOneService":"0.00015","levelTwoService":"0.00005","activeType":"3"}]next[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:23:58][5][posdata_yinhuitong][5]找到了终端详情[{"commodityID":"11","userID":"232","orderID":"65","isActive":"2","terminalNo":"1001314597"}]next[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:23:58][6][posdata_yinhuitong][5]商户正常[18347111168]processStatus更改成功有返现next[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:23:58][7][posdata_yinhuitong][5]remark准备好[183****1168交易5000.00]next[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:23:58][8][posdata_yinhuitong][5]商户状态正常且返现金额正常[232][1.50][1]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:23:58][9][posdata_yinhuitong][5]返现表中无异常数据[{"outputAN":"232","receiveAN":"232","tableName":"posdata_yinhuitong","tableid":"5","uniqueIndex":"310483863794","cashType":"trade","agentLevel":1}][232][1.50][1]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:23:58][10][posdata_yinhuitong][5]交易返现添加钱包[{"bid":"232","money":"1.50","ordernum":"310483863794","tranType":"Z","storageType":"JY","platform_id":"175","remark":"183****1168交易5000.00"}][1][232][1.50][1]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:23:58][11][posdata_yinhuitong][5]交易返现添加钱包成功并找上级[208][1][232][1.50][2]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:23:58][8][posdata_yinhuitong][5]商户状态正常且返现金额正常[208][0.25][2]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:23:58][9][posdata_yinhuitong][5]返现表中无异常数据[{"outputAN":"232","receiveAN":"208","tableName":"posdata_yinhuitong","tableid":"5","uniqueIndex":"310483863794","cashType":"trade","agentLevel":2}][208][0.25][2]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:23:58][10][posdata_yinhuitong][5]交易返现添加钱包[{"bid":"208","money":"0.25","ordernum":"310483863794","tranType":"Z","storageType":"JY","platform_id":"175","remark":"183****1168交易5000.00"}][1][208][0.25][2]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:23:58][11][posdata_yinhuitong][5]交易返现添加钱包成功并找上级[204][1][208][0.25][3]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:23:58][58][posdata_yinhuitong][5]商户状态正常且返现金额正常[204][0.75][1]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:23:58][59][posdata_yinhuitong][5]返现表中无异常数据[{"outputAN":"232","receiveAN":"204","tableName":"posdata_yinhuitong","tableid":"5","uniqueIndex":"310483863794","cashType":"agent","agentLevel":1}][204][0.75][1]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:23:58][60][posdata_yinhuitong][5]交易返现添加钱包[{"bid":"204","money":"0.75","ordernum":"310483863794","tranType":"Z","storageType":"JY","platform_id":"175","remark":"183****1168交易5000.00"}][1][204][0.75][1]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:23:58][61][posdata_yinhuitong][5]交易返现添加钱包成功并找上级服务商[202][1][204][0.75][2]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:23:58][58][posdata_yinhuitong][5]商户状态正常且返现金额正常[202][0.25][2]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:23:58][59][posdata_yinhuitong][5]返现表中无异常数据[{"outputAN":"232","receiveAN":"202","tableName":"posdata_yinhuitong","tableid":"5","uniqueIndex":"310483863794","cashType":"agent","agentLevel":2}][202][0.25][2]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:23:58][60][posdata_yinhuitong][5]交易返现添加钱包[{"bid":"202","money":"0.25","ordernum":"310483863794","tranType":"Z","storageType":"JY","platform_id":"175","remark":"183****1168交易5000.00"}][1][202][0.25][2]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:23:58][61][posdata_yinhuitong][5]交易返现添加钱包成功并找上级服务商[0][1][202][0.25][3]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:26:59][2-1][posdata_yinhuitong][6]订单数据[{"terminalNo":"1001314597","plat":"175","tradeOrderNo":"310483869122","tradeAmt":"2199.00"}]查询条件[{"processStatus":1,"id":"6"}]next[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:26:59][3][posdata_yinhuitong][6]未处理的数据[{"terminalNo":"1001314597","plat":"175","tradeOrderNo":"310483869122","tradeAmt":"2199.00"}]next[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:26:59][4][posdata_yinhuitong][6]规则获取成功[{"activateTheStandard":"5000.00","ownStandardCashback":"0.00","standardCashback":"50.00","commodityID":"11","ownCashbackRatio":"0.00030","superiorCashbackRatio":"0.00005","levelOneService":"0.00015","levelTwoService":"0.00005","activeType":"3"}]next[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:26:59][5][posdata_yinhuitong][6]找到了终端详情[{"commodityID":"11","userID":"232","orderID":"65","isActive":"1","terminalNo":"1001314597"}]next[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:26:59][6][posdata_yinhuitong][6]商户正常[18347111168]processStatus更改成功有返现next[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:26:59][7][posdata_yinhuitong][6]remark准备好[183****1168交易2199.00]next[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:26:59][8][posdata_yinhuitong][6]商户状态正常且返现金额正常[232][0.65][1]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:26:59][9][posdata_yinhuitong][6]返现表中无异常数据[{"outputAN":"232","receiveAN":"232","tableName":"posdata_yinhuitong","tableid":"6","uniqueIndex":"310483869122","cashType":"trade","agentLevel":1}][232][0.65][1]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:26:59][10][posdata_yinhuitong][6]交易返现添加钱包[{"bid":"232","money":"0.65","ordernum":"310483869122","tranType":"Z","storageType":"JY","platform_id":"175","remark":"183****1168交易2199.00"}][1][232][0.65][1]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:26:59][11][posdata_yinhuitong][6]交易返现添加钱包成功并找上级[208][1][232][0.65][2]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:26:59][8][posdata_yinhuitong][6]商户状态正常且返现金额正常[208][0.10][2]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:26:59][9][posdata_yinhuitong][6]返现表中无异常数据[{"outputAN":"232","receiveAN":"208","tableName":"posdata_yinhuitong","tableid":"6","uniqueIndex":"310483869122","cashType":"trade","agentLevel":2}][208][0.10][2]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:26:59][10][posdata_yinhuitong][6]交易返现添加钱包[{"bid":"208","money":"0.10","ordernum":"310483869122","tranType":"Z","storageType":"JY","platform_id":"175","remark":"183****1168交易2199.00"}][1][208][0.10][2]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:26:59][11][posdata_yinhuitong][6]交易返现添加钱包成功并找上级[204][1][208][0.10][3]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:26:59][58][posdata_yinhuitong][6]商户状态正常且返现金额正常[204][0.32][1]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:26:59][59][posdata_yinhuitong][6]返现表中无异常数据[{"outputAN":"232","receiveAN":"204","tableName":"posdata_yinhuitong","tableid":"6","uniqueIndex":"310483869122","cashType":"agent","agentLevel":1}][204][0.32][1]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:26:59][60][posdata_yinhuitong][6]交易返现添加钱包[{"bid":"204","money":"0.32","ordernum":"310483869122","tranType":"Z","storageType":"JY","platform_id":"175","remark":"183****1168交易2199.00"}][1][204][0.32][1]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:26:59][61][posdata_yinhuitong][6]交易返现添加钱包成功并找上级服务商[202][1][204][0.32][2]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:26:59][58][posdata_yinhuitong][6]商户状态正常且返现金额正常[202][0.10][2]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:26:59][59][posdata_yinhuitong][6]返现表中无异常数据[{"outputAN":"232","receiveAN":"202","tableName":"posdata_yinhuitong","tableid":"6","uniqueIndex":"310483869122","cashType":"agent","agentLevel":2}][202][0.10][2]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:26:59][60][posdata_yinhuitong][6]交易返现添加钱包[{"bid":"202","money":"0.10","ordernum":"310483869122","tranType":"Z","storageType":"JY","platform_id":"175","remark":"183****1168交易2199.00"}][1][202][0.10][2]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:26:59][61][posdata_yinhuitong][6]交易返现添加钱包成功并找上级服务商[0][1][202][0.10][3]next
+[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:26:59][12][posdata_yinhuitong][6]未激活以及remark[183****1168激活机具]next[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:26:59][13][posdata_yinhuitong][1001314597]银惠通条件3激活next[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:26:59][14][posdata_yinhuitong][1527765985]银惠通激活next[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:26:59][14][posdata_yinhuitong][20180531][{"terminalNo":"1001314597","_string":"createDate >= '20180531' and createDate <= '20180630'"}][7199.00]银惠通激活next[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:26:59][15][posdata_yinhuitong][5000.00][7199.00]银惠通激活next[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:26:59][17][posdata_yinhuitong][{"id":"65","bid":"232","proid":"11","sid":"28","procid":"13","ordernum":"2018053170935","orderTime":"1527765345","payTime":"1527765360","consignee":"马花云","consigneePhone":"18347111168","province":"内蒙古自治区","city":"呼和浩特市","area":"新城区","address":"沙梁村","isPay":"1","isOrder":"1","isShip":"1","shipTime":null,"orderMoney":"0.00","depositMoney":"120.00","isDeposit":"1","isDepositRefund":"1","RefundFailReason":null,"depositTime":null,"plat":"175","remark":"","isReceipt":"2","receiptTime":"1527775399","isActivate":"2","wxpayMoney":"120.00","wxIsPay":"2","freight":"0.00","courierName":"自提","waybillNumber":"0123456789","terminalNumber":"1001314597","consignor":"0"}]激活找订单next[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:26:59][18][posdata_yinhuitong][12000][12000]退押金判断总金额和退款金额next[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:26:59][19][posdata_yinhuitong][null]退押金失败next[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:26:59][20][posdata_yinhuitong]存在上级，给上级激活返现[208]next[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:26:59][21][posdata_yinhuitong]没有给上级激活返现[{"outputAN":"232","receiveAN":"208","tableName":"posdata_yinhuitong","tableid":"65","uniqueIndex":"1001314597","cashType":"active","agentLevel":2}]next[Admin/POSData/findYhtCashback]
+[Success][2018-06-01 09:26:59][22][posdata_yinhuitong]激活返现最后一步[{"bid":"208","money":"50.00","ordernum":"1001314597","tranType":"Z","storageType":"JH","platform_id":"175","remark":"183****1168激活机具"}][Array][1]next[Admin/POSData/findYhtCashback]

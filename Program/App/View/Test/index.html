@@ -1,0 +1,50 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<head>
+    <title>标题页</title>
+    <!-- <script src="./Public/partner/js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script> -->
+    <script language="JavaScript">
+        function changeCase()
+        {
+            var index;
+            var tmpStr;
+            var tmpChar;
+            var preString;
+            var postString;
+            var strlen;
+            alert(tmpStr);
+            // tmpStr = frmObj.value.toLowerCase();    //转换为全部小写
+            // strLen = tmpStr.length;                 //字符的长度
+            // if (strLen > 0)  {
+            //     for (index = 0; index < strLen; index++)  
+            //     {
+            //         if (index == 0)  {
+            //         //将第一位字符转换为大写
+            //             tmpChar = tmpStr.substring(0,1).toUpperCase();
+            //             postString = tmpStr.substring(1,strLen);
+            //             tmpStr = tmpChar + postString;
+            //         }
+            //         else {
+            //              tmpChar = tmpStr.substring(index, index+1);
+            //             //如果是第二个单词（通过空格判断）
+            //             if (tmpChar == " " && index < (strLen-1))  {
+            //                 tmpChar = tmpStr.substring(index+1, index+2).toUpperCase();
+            //                 preString = tmpStr.substring(0, index+1);
+            //                 postString = tmpStr.substring(index+2,strLen);
+            //                 tmpStr = preString + tmpChar + postString;
+            //             }
+            //         }
+            //     }
+            // }
+            // frmObj.value = tmpStr;  //显示转换后的文本
+        }
+    </script>
+</head>
+
+<body>
+    <input type=text name="txt1" value="this is test!">
+    <input type=button value="转换文本" onClick="changeCase()">
+</body>
+
+</html>

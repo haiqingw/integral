@@ -1,0 +1,7 @@
+[Success][2018-10-19 09:01:28]账号【shkj】帐号验证通过！[Admin/Login/logincheck]
+[Success][2018-10-19 09:07:22]账号【system】帐号验证通过！[Admin/Login/logincheck]
+[Success][2018-10-19 09:14:39]用户名为：System于 2018-10-19 09:14:39 IP为： 192.168.31.243添加权限名称为 安全密码保存成功[Admin/Auth/authaddfunction]
+[Success][2018-10-19 09:15:36]用户名为：System于 2018-10-19 09:15:36 IP为： 192.168.31.243更改权限名称成功[Admin/Auth/authmodifyfunction]
+[Success][2018-10-19 09:17:08]账号【lanrenkeji】帐号验证通过！[Admin/Login/logincheck]
+[Success][2018-10-19 09:51:19]账号【sxdzg】帐号验证通过！[Admin/Login/logincheck]
+[Success][2018-10-19 09:57:50]账号【laijinkeji】帐号验证通过！[Admin/Login/logincheck]

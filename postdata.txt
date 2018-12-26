@@ -1,0 +1,1 @@
+SELECT a.*,b.classname as bname FROM p_cash_back_rule_set as a INNER JOIN p_plat_trade_class_manage as b on a.cardtype = b.englishname  WHERE ( a.cbrid = 1 and a.types = 2 and b.plat = 203 ) ORDER BY a.addtime desc 

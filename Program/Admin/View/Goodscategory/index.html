@@ -1,0 +1,84 @@
+<form id="pagerForm" method="post" action="{:U('category')}" onsubmit="return navTabSearch(this);">
+    <input type="hidden" name="pageNum" value="{$page}" />
+    <input type="hidden" name="numPerPage" value="{$limit}" />
+</form>
+<script>
+    //关闭弹出框
+    if ("{$state}" == 'success') {
+        //$.pdialog.close('addviewProv');
+    }
+</script>
+<div class="pageContent">
+    <div class="panelBar">
+        <ul class="toolBar">
+            <li><a class="add" href="{:U('addCategory')}" target="navTab" rel="addCategory" width="320" height='180'><span>添加</span></a></li>
+            <li><a class="edit" href="{:U('addCategory')}?cid={cid}" target="navTab" rel="addCategory" width="320"
+                    height='180'><span>修改</span></a></li>
+            <li><a class="delete" href="{:U('delCategoryProcess')}?cid={cid}" target="ajaxTodo" title="确定要删除吗?"><span>删除</span></a></li>
+        </ul>
+    </div>
+    <table class="table" width="100%" layoutH="75">
+        <thead>
+            <tr>
+                <th width="10%" align="center">序号</th>
+                <th width="20%" align="center">品牌名称</th>
+                <th width="20%" align="center">产品名称</th>
+                <th width="15%" align="center">规则模板</th>
+                <th width="15%" align="center">添加时间</th>
+                <th width="10%" align="center">状态</th>
+                <th width="10%" align="center">操作</th>
+            </tr>
+        </thead>
+        <if condition="$totalCount gt 0">
+            <tbody>
+                <volist name="list" id="v">
+                    <tr target="cid" rel="{$v.id}">
+                        <td align="center">{$i}</td>
+                        <td align="center">{$v.brandName}</td>
+                        <td align="center">{$v.productName}</td>
+                        <td align="center">{$v.ruleList}</td>
+                        <td align="center">{$v.addtime|dateFormat=###}</td>
+                        <td align="center">
+                            <if condition="$v.status eq 1">
+                                <font color=#0099FF>正常</font>
+                            </if>
+                            <if condition="$v.status eq 2">
+                                <font color=#FF0000>停用中</font>
+                            </if>
+                        </td>
+                        <td align="center">
+                            <if condition="$v.status eq 1"><a href="{:U('stopCategory')}?cid={$v.id}" target="ajaxTodo"
+                                    title="停用后公司无法添加模板！确定要停用？">
+                                    <font color=#FF0000>停用</font>
+                                </a></if>
+                            <if condition="$v.status eq 2"><a href="{:U('openCategory')}?cid={$v.id}" target="ajaxTodo"
+                                    title="是否开启该分类？">
+                                    <font color=#0099FF>开启</font>
+                                </a></if>
+                        </td>
+                    </tr>
+                </volist>
+            </tbody>
+            <else />
+            <tbody>
+                <tr>
+                    <td align="center" colspan="2" style="color:red;">抱歉， 没有找到符合的记录！</td>
+                </tr>
+            </tbody>
+        </if>
+    </table>
+    <div class="panelBar">
+        <div class="pages">
+            <span>显示</span>
+            <select class="combox" name="numPerPage" onchange="navTabPageBreak({numPerPage:this.value})">
+                <option value="20" <if condition="$limit eq 20">selected</if>>20</option>
+                <option value="50" <if condition="$limit eq 50">selected</if>>50</option>
+                <option value="100" <if condition="$limit eq 100">selected</if>>100</option>
+                <option value="200" <if condition="$limit eq 200">selected</if>>200</option>
+            </select>
+            <span>条，共{$totalCount}条</span>
+        </div>
+        <div class="pagination" targetType="navTab" totalCount="{$totalCount}" numPerPage="{$limit}" pageNumShown="10"
+            currentPage="{$page}"></div>
+    </div>
+</div>

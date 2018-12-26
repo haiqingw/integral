@@ -1,0 +1,6 @@
+[Success][2018-08-17 08:14:05]账号【system】帐号验证通过！[Admin/Login/logincheck]
+[Success][2018-08-17 09:19:20]账号【lanrenkeji】帐号验证通过！[Admin/Login/logincheck]
+[Success][2018-08-17 10:24:43]用户名为：System于 2018-08-17 10:24:43 IP为： 192.168.1.243添加权限名称为 机具统计保存成功[Admin/Auth/authaddfunction]
+[Success][2018-08-17 10:26:07]用户名为：System于 2018-08-17 10:26:07 IP为： 192.168.1.243添加权限名称为 邀请统计保存成功[Admin/Auth/authaddfunction]
+[Success][2018-08-17 17:30:13]账号【chehanzi】帐号验证通过！[Admin/Login/logincheck]
+[Success][2018-08-17 17:46:31]账号【lanrenkeji】帐号验证通过！[Admin/Login/logincheck]

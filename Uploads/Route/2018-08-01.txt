@@ -1,0 +1,549 @@
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)
+array (
+  'requestType' => 'servicefee',
+  'requestKeywords' => 'recharge',
+  'userID' => 'e2c0be24560d78c5e599c2a9c9d0bbd2',
+  'userPhone' => 'MsTjMf3wMpDoQr3wNeTjEc5lNaTmglO0O0Om',
+  'platformID' => 175,
+  'cycle' => 1,
+  'money' => '1.00',
+)

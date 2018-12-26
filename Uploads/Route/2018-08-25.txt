@@ -1,0 +1,8 @@
+array (
+  'requestType' => 'operating',
+  'requestKeywords' => 'drawcash',
+  'platformID' => '175',
+  'userID' => '274ad4786c3abca69fa097b85867d9a4',
+  'userPhone' => 'MsTjMfywOpToYr5wMeDjUczlNaDmAlO0O0Om',
+  'money' => '5',
+)

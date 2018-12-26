@@ -1,0 +1,135 @@
+array (
+  'requestType' => 'agent',
+  'requestKeywords' => 'dialcode',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'childID' => 204,
+  'machineID' => '971,972',
+)
+array (
+  'requestType' => 'agent',
+  'requestKeywords' => 'dialcode',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'childID' => 204,
+  'machineID' => '971,972',
+)
+array (
+  'requestType' => 'agent',
+  'requestKeywords' => 'dialcode',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'childID' => 204,
+  'machineID' => '973,974',
+)
+array (
+  'requestType' => 'agent',
+  'requestKeywords' => 'dialcode',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'childID' => 204,
+  'machineID' => '973,974',
+)
+array (
+  'requestType' => 'agent',
+  'requestKeywords' => 'dialcode',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'childID' => 204,
+  'machineID' => '975,976',
+)
+array (
+  'requestType' => 'agent',
+  'requestKeywords' => 'dialcode',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'childID' => 204,
+  'machineID' => '975,976',
+)
+array (
+  'requestType' => 'agent',
+  'requestKeywords' => 'dialcode',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'childID' => 204,
+  'machineID' => '977,978',
+)
+array (
+  'requestType' => 'agent',
+  'requestKeywords' => 'dialcode',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'childID' => 204,
+  'machineID' => '977,978',
+)
+array (
+  'requestType' => 'agent',
+  'requestKeywords' => 'dialcode',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'childID' => 204,
+  'machineID' => '977,978',
+)
+array (
+  'requestType' => 'agent',
+  'requestKeywords' => 'dialcode',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'childID' => 204,
+  'machineID' => '977,978',
+)
+array (
+  'requestType' => 'agent',
+  'requestKeywords' => 'dialcode',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'childID' => 204,
+  'machineID' => '977,978',
+)
+array (
+  'requestType' => 'agent',
+  'requestKeywords' => 'dialcode',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'childID' => 204,
+  'machineID' => '977,978',
+)
+array (
+  'requestType' => 'agent',
+  'requestKeywords' => 'dialcode',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'childID' => 204,
+  'machineID' => '979,980',
+)
+array (
+  'requestType' => 'agent',
+  'requestKeywords' => 'dialcode',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'childID' => 204,
+  'machineID' => '979,980',
+)
+array (
+  'requestType' => 'agent',
+  'requestKeywords' => 'dialcode',
+  'platformID' => '175',
+  'userID' => '854d6fae5ee42911677c739ee1734486',
+  'userPhone' => 'MsTjgf3wNpDogrxwMeDjYc3lOaTmglO0O0Om',
+  'childID' => 204,
+  'machineID' => '979,980',
+)

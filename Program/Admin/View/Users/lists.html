@@ -1,0 +1,88 @@
+
+<div class="pageHeader" style="border:1px #B8D0D6 solid">
+        <form id="pagerForm" onsubmit="return divSearch(this, 'jbsxBox');" action="{:U('Users/lists')}" method="post">
+            <input type="hidden" name="pageNum" value="{$page}" />
+            <input type="hidden" name="numPerPage" value="{$numPerPage}" />
+            <input type="hidden" name="level" value="{$level}" />
+            <input type="hidden" name="plat" value="{$plat}" />
+            <input type="hidden" name="keyword" value="{$keyword}" />
+            <div class="searchBar">
+                <table class="searchContent">
+                    <tr>
+                        <td>
+                            用户名称：
+                            <input type="text" name="keyword" value="{$keyword}"/>
+                        </td>
+                        <td>
+                            <div class="buttonActive">
+                                <div class="buttonContent">
+                                    <button type="submit">检索</button>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </form>
+    </div>
+    
+    <div class="pageContent" style="border-left:1px #B8D0D6 solid;border-right:1px #B8D0D6 solid">
+        <div class="panelBar">
+            <ul class="toolBar">
+            </ul>
+        </div>
+        <table class="table" width="99%" layoutH="260" rel="jbsxBox">
+            <thead>
+                    <tr>
+                            <th width="2%"><input type="checkbox" group="decldel" class="checkboxCtrl"></th>
+                            <th width="50" align="center">ID</th>
+                            <th width="150" align="left">头像</th>
+                            <th width="80" align="left">商户名称</th>
+                            <th width="80" align="center">商户级别</th>
+                            <th width="80" align="center">联系电话</th>
+                            <th width="150" align="center">注册时间</th>
+                            <th width="80" align="center">商户状态</th>
+                            <th width="150" align="center">上级</th>
+                            <th width="150" align="center">邀请码</th>
+                            <th width="150" align="center">操作</th>
+                        </tr>
+            </thead>
+            <tbody>
+                    <foreach name="data" item="v">
+                            <tr target="sid_user" rel="{$v.id}">
+                                <td><input name="decldel" value="{$v.id}" type="checkbox"></td>
+                                <td align="center">{$v.id}</td>
+                                <td align="center"><img src="{$v['ImagePath']}"/></td>
+                                <td align="center">{$v['busname']}</td>
+                                <td align="center">{$v.level}</td>
+                                <td align="center">{$v.phone}</td>
+                                <td align="center">{$v.regisTime|date="Y-m-d H:i",###}</td>
+                                <td align="center"><switch name="v.status"><case value="1">正常</case><case value="2">冻结</case><case value="3">删除</case></switch></td>
+                                <td align="center">{$parents[$key]}</td>
+                                <td align="center">{$v.code}</td>
+                                <td align="center"></td>
+            
+                            </tr>
+                        </foreach>
+            </tbody>
+        </table>
+        <div class="panelBar">
+                <div class="pages">
+                    <span>显示</span>
+                    <select class="combox" name="numPerPage" onchange="navTabPageBreak({numPerPage:this.value}, 'jbsxBox')">
+                        <option value="20" <if condition="$numPerPage eq 20">selected="selected"</if>>20
+                        </option>
+                        <option value="50" <if condition="$numPerPage eq 50">selected="selected"</if>>50
+                        </option>
+                        <option value="100" <if condition="$numPerPage eq 100">selected="selected"</if>>100
+                        </option>
+                        <option value="200" <if condition="$numPerPage eq 200">selected="selected"</if>>200
+                        </option>
+                    </select>
+                    <span>条，共{$totalCount}条</span>
+                </div>
+                <div class="pagination" rel="jbsxBox" totalCount="{$totalCount}" numPerPage="{$numPerPage}" pageNumShown="10"
+                    currentPage="{$page}"></div>
+            </div>
+    </div>
+

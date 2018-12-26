@@ -1,0 +1,1108 @@
+/*header start*/
+
+a.aBackBtn {
+	display: block;
+	width: 40px;
+	height: 30px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	text-align: center;
+	padding-top: 10px;
+}
+
+a.aBackBtn img {
+	display: block;
+	width: 20px;
+	height: 20px;
+	margin: 0 auto;
+}
+a.addBtn{
+	display: block;
+	width:100px;
+	height:40px;
+	line-height:41px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	text-align: center;
+	color:#fff;
+	overflow:hidden;
+}
+.subpageHeader {
+	width: 100%;
+	height: 40px;
+	line-height: 42px;
+	font-size: 16px;
+	color: #666;
+	text-align: center;
+	position: fixed;
+	left: 0;
+	top: 0;
+	overflow: hidden;
+	z-index: 2;
+	background: #f9a020;
+	color: #fff;
+	border-bottom:1px solid #ffa92f;
+}
+.subpageMain {
+	padding-top: 40px;
+}
+/*登录 开始*/
+.outlineDiv{
+	width:90%;
+	background:#fff;
+	border-radius:5px;
+	margin:55% auto 30px;
+	padding:8px;
+	box-sizing:border-box;
+}
+.innerlineDiv{
+	width:100%;
+	border:1px solid #ff9700;
+	border-radius:5px;
+}
+.TipMain{
+  height:40px;
+  overflow:hidden;
+  line-height:42px;
+  font-size:14px;
+  border-radius:5px 5px 0 0;
+}
+.TipMain img{
+	width:20px;
+	height:20px;
+	float:left;
+	margin:9px 5px 0;
+}
+.loginFormMain{
+	padding:0 10px;
+}
+div.FormItem{
+	overflow:hidden;
+	line-height:50px;
+}
+div.FormItem span{
+  width:50px;
+  float:left;
+  display:block;
+  font-size:14px;
+}
+div.FormItem div{
+	padding-left:60px;
+	
+}
+div.FormItem div input{
+	width:100%;
+	height:50px;
+	line-height:50px;
+	border:none;
+	background:none;
+	font-size:14px;
+	position:relative;
+	top:-1px;
+}
+div.FormItem.verificationCode{
+	position:relative;
+}
+div.FormItem.verificationCode input{
+	width:60%;
+}
+div.FormItem.verificationCode a{
+  display:block;
+  position:absolute;
+  right:0;
+  top:0;
+  color:#ed4b3e;
+}
+div.FormItem.verificationCode a.active{
+	color:#ccc;
+}
+.sumbitButton{
+	display:block;
+	width:60%;
+	height:40px;
+	margin:15px auto 0;
+	line-height:40px;
+	text-align: center;
+	color:#fff;
+	background:#f33;
+	border-radius:5px;
+}
+.questionBtn{
+	line-height:40px;
+	text-align: center;
+}
+.questionBtn a{
+	color:#333;
+	font-size:14px;
+}
+.policyBtn{
+	display:block;
+	text-align:center;
+	line-height:30px;
+	color:#f33;
+	font-size:16px;
+	padding-bottom:5px;
+}
+.noRegisterMain{
+	padding:30px 0 10px;
+	text-align:center;
+}
+.noRegisterMain img{
+	width:80px;
+	height:80px;
+	display:block;
+	margin:0 auto;
+}
+.noRegisterMain p{
+	padding-top:10px;
+	font-size:14px;
+	color:#333;
+}
+.noRegisterMain p:first-of-type{
+	font-size:20px;
+	line-height:40px;
+	padding-top:15px;
+}
+/*登录 结束*/
+/*简介页 开始*/
+.detailContainer {
+	padding: 0 10px;
+}
+
+.detailTitleMain h3 {
+	line-height: 26px;
+	font-size: 16px;
+	padding: 10px 0 5px;
+}
+
+.detailTitleMain>div {
+	line-height: 20px;
+	padding-bottom: 10px;
+	overflow: hidden;
+}
+
+.detailTitleMain>div time {
+	float: left;
+	font-size: 14px;
+	color: #333;
+	display: block;
+}
+
+.detailTitleMain>div span {
+	float: right;
+	overflow: hidden;
+	font-size: 14px;
+	color: #333;
+}
+
+.detailTitleMain>div span img {
+	width: 20px;
+	height: 20px;
+	float: left;
+	margin-right: 5px;
+}
+
+.detailContent {
+	padding: 5px 0 10px;
+	line-height: 26px;
+	font-size: 14px;
+	text-align: justify;
+}
+/*简介页 结束*/
+/*首页 开始*/
+.indexContainer img{
+	display:block;
+}
+.footer_menu{
+	position:fixed;
+	left:0;
+	bottom:0;
+	width:100%;
+	z-index:9;
+}
+.footer_menu a{
+	display:block;
+	width:50%;
+	float:left;
+	height:50px;
+	line-height:51px;
+	text-align:center;
+	color:#333;
+	font-size:16px;
+}
+.footerMenuLevel{
+	position:fixed;
+    width:50%;
+    right:0;
+    bottom:50px;
+    background:#f1f1f1;
+    z-index:99999;
+    display:none;
+}
+.footerMenuLevel a{
+	display:block;
+	width:100%;
+	text-align: center;
+	overflow:hidden;
+	line-height:51px;
+	height:50px;
+	text-align: center;
+	font-size:16px;
+	color:#333;
+}
+.footerMenuLevel a:first-of-type{
+	background:#fff;
+}
+.overlazy{
+	position:fixed;
+	left:0;
+	top:0;
+	bottom:50px;
+	right:0;
+	z-index:1;
+	background:rgba(0,0,0,0.3);
+	cursor:pointer;
+	display:none;
+}
+/*首页 结束*/
+/*佣金记录 开始*/
+.CommissionRecordHeaderContainer{
+	position:fixed;
+	left:0;
+	top:40px;
+	width:100%;
+}
+.CommissionRecordHeader{
+	padding:10px 0 20px;
+	text-align: center;
+	background:#f1f1f1;
+}
+.CommissionRecordHeader h3{
+	font-size:16px;
+	line-height:30px;
+	padding-top:5px;
+}
+.CommissionRecordHeader p{
+	font-size:30px;
+	color:#ff7323;
+	line-height:40px;
+	padding-bottom:5px;
+}
+.CommissionRecordHeader a{
+	display:block;
+	width:100px;
+	line-height:31px;
+	height:30px;
+	text-align: center;
+	background:#f33;
+	color:#fff;
+	margin:5px auto 0;
+	border-radius:5px;
+}
+.CommissionRecordTab{
+	overflow:hidden;
+}
+.CommissionRecordTab a{
+	display: block;
+	width:50%;
+	float:left;
+	line-height:50px;
+	height:50px;
+	font-size:16px;
+	color:#333;
+    text-align: center;
+    position:relative;
+}
+.CommissionRecordTab a.Selected::before{
+	content:'';
+	display: block;
+	width:50%;
+	height:3px;
+	background:#ff7323;
+	position:absolute;
+	left:50%;
+	margin-left:-25%;
+	bottom:0.5px;
+	
+}
+.CommissionRecordMain{
+	padding:152px 10px 10px;
+}
+.CommissionRecordList{
+	display:none;
+}
+.CommissionRecordListUl li{
+	overflow:hidden;
+	padding:5px 0 10px;
+}
+.CommissionRecordListUl li>img{
+	width:30px;
+	height:30px;
+	float:left;
+    margin:10px 10px 0 5px;
+}
+.CommissionRecordListUl li>div.CommissionRecordListDiv{
+	overflow:hidden;
+	padding-top:10px;
+}
+.CommissionRecordListUl li>div.CommissionRecordListDiv div:nth-of-type(1){
+	float:left;
+}
+.CommissionRecordListUl li>div.CommissionRecordListDiv div:nth-of-type(1) h3{
+	line-height:16px;
+	font-size:14px;
+}
+.CommissionRecordListUl li>div.CommissionRecordListDiv div:nth-of-type(1) p{
+	line-height:20px;
+	font-size:12px;
+}
+.CommissionRecordListUl li>div.CommissionRecordListDiv div:nth-of-type(2){
+	float:right;
+	text-align:right;
+}
+.CommissionRecordListUl li>div.CommissionRecordListDiv div:nth-of-type(2) p{
+	font-size:16px;
+	line-height:16px;
+	font-weight:bold;
+	color:#f33;
+}
+.CommissionRecordListUl li>div.CommissionRecordListDiv div:nth-of-type(2) p.green{
+	color:green;
+}
+.CommissionRecordListUl li>div.CommissionRecordListDiv div:nth-of-type(2) time{
+	font-size:12px;
+	color:#666;
+}
+/*佣金记录 结束*/
+
+/*提现 开始*/
+.input_list {
+	overflow: hidden;
+	line-height: 30px;
+	padding: 5px 5%;
+	font-size: 16px;
+	position: relative;
+	font-family: "黑体";
+}
+
+.input_list > em {
+	display: block;
+	width: 90px;
+	float: left;
+	font-style: normal;
+}
+
+.input_list > div {
+	padding-left: 90px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.input_list > div i {
+	position: absolute;
+	left: 90px;
+	top: 0;
+	display: block;
+	line-height: 30px;
+}
+
+.input_list > div input[type='date'] {
+	position: relative;
+	z-index: 9;
+}
+
+.input_list > div input {
+	height: 30px;
+	line-height: 30px;
+	border: none;
+	background: none;
+	font-size: 16px;
+	width: 100%;
+}
+.input_list > div select {
+	height: 30px;
+	line-height: 30px;
+	border: none;
+	background: none;
+	font-size: 16px;
+	width: 100%;
+	appearance: none;
+	-webkit-appearance: none;
+	outline: none;
+}
+.input_list > a {
+	display: block;
+	width: 30%;
+	height: 25px;
+	line-height: 26px;
+	background: skyblue;
+	position: absolute;
+	right: 20px;
+	top: 8px;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	border-radius: 5px;
+	z-index: 9;
+}
+
+.input_list > a.active {
+	background: #ccc;
+}
+
+.registerBtn {
+	width: 90%;
+	margin:10px auto 30px;
+	display:block;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	background: #00376f;
+	border-radius: 5px;
+}
+.nav_title {
+    padding: 5px 5%;
+    box-sizing: border-box;
+    background: #f1f1f3;
+    line-height: 24px;
+    height: 32px;
+    overflow: hidden;
+    position: relative;
+}
+.withDetail_img {
+	text-align: center;
+	padding: 20px 0 10px;
+}
+
+.withDetail_img img {
+	width: 50%;
+}
+
+.withdrawDetail_box h3 {
+	font-size: 18px;
+	color: #cd3027;
+	text-align: center;
+	margin: 0 0 15px 0;
+	line-height: 30px;
+}
+
+.withdrawDetail_main {
+	background: #fff;
+}
+
+.withdrawDetail_main > div {
+	font-size: 14px;
+	line-height: 35px;
+	height: 30px;
+}
+
+.withdrawDetail_main > div input {
+	line-height: 33px;
+	font-size: 14px;
+}
+
+.withdrawDetail_box nav {
+	background: #fff;
+}
+/*2017-6-27 15:00 修改 开始*/
+.selectWithdraw {
+	background: #f3f3f4;
+	padding: 10px 0;
+}
+.swiperSlide {
+	padding-bottom: 5px;
+}
+.withDrawBox {
+	width: 100%;
+	background: #fff;
+	border-radius: 5px;
+	padding: 0 0 10px 0;
+	margin-bottom:5px;
+}
+.withDrawBox.active {
+	box-shadow: 0 0 5px #00376f;
+}
+.withDrawBox > h3 {
+	height: 30px;
+	line-height: 32px;
+	background: #00376f;
+	color: #fff;
+	margin: 0;
+	padding: 0 10px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+.withDrawBox > div {
+	text-align: center;
+}
+.withDrawBox > div span {
+	font-size: 30px;
+	color: #f33;
+	line-height: 30px;
+}
+.withDrawBox > div p {
+	line-height: 30px;
+	font-size: 14px;
+	padding-top: 10px;
+}
+.withDrawBox > em {
+	display: block;
+	text-align: center;
+	font-size: 14px;
+	line-height: 25px;
+}
+.withDrawBox > em:nth-of-type(1) {
+	padding-top: 5px;
+}
+.withDrawBox > em:nth-of-type(2) {
+	font-size: 12px;
+	color: #666;
+}
+.withDrawInput {
+	line-height: 60px;
+	height:58px;
+	overflow:hidden;
+}
+.withDrawInput > em {
+	height: 60px;
+	overflow: hidden;
+	line-height: 62px;
+}
+.withDrawInput > div {
+	font-size: 20px;
+}
+.withDrawInput > div input {
+	line-height: 50px;
+	overflow: hidden;
+	height: 52px;
+	color: #f33;
+	font-size: 20px;
+}
+/*提现 结束*/
+
+/*绑定银行卡 开始*/
+.FormsGroup {
+	background: #fff;
+}
+
+.FormsGroup>div {
+	padding: 0 10px;
+	line-height: 50px;
+}
+
+.FormsGroup>div input {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	font-size: 16px;
+	font-family: "黑体";
+	background: none;
+	border: none;
+}
+.bindCardFormGroup>div {
+	padding-left: 50px;
+	position: relative;
+}
+
+.bindCardFormGroup>div img {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	left: 9px;
+	top: 10px;
+}
+
+.bindCardFormGroup>div.BindVerificationCode a {
+	display: block;
+	line-height: 50px;
+	position: absolute;
+	right: 10px;
+	top: 0;
+	font-size: 16px;
+	color: #00376f;
+}
+.bindCardFormGroup>div.BindVerificationCode a.active{
+	color:#ccc;
+}
+.bindCardPhoto {
+	margin-top: 10px;
+}
+
+.bindCardPhoto>div {
+	width: 60%;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+	padding: 10px 0 10px;
+}
+
+.bindCardPhoto>div input {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+}
+
+.bindCardPhoto>div p {
+	line-height: 30px;
+}
+
+.buttonMain {
+	padding: 30px 30px 30px;
+}
+
+.buttonMain a {
+	display: block;
+	width: 100%;
+	height: 45px;
+	background: #00376f;
+	text-align: center;
+	line-height: 45px;
+	font-size: 16px;
+	color: #fff;
+	border-radius: 5px;
+}
+.noticeTip {
+	line-height: 42px;
+	overflow: hidden;
+	height: 40px;
+	font-size: 12px;
+	color: #333;
+	padding: 0 10px;
+	background: #f1f1f1;
+}
+
+.noticeTip img {
+	float: left;
+	width: 25px;
+	height: 25px;
+	margin: 7px 5px 0 0;
+}
+
+/*绑定银行卡 结束*/
+/*推广二维码 开始*/
+.codeImgMain{
+	width:60%;
+	margin:10px auto 0;
+	text-align: center;
+}
+.codeImgMain img{
+	display:block;
+}
+.codeImgMain p{
+	line-height:40px;
+	font-size:16px;
+	text-align: center;
+}
+/*推广二维码 结束*/
+/*提现成功页面 开始*/
+.settingChangeSuccess {
+	text-align: center;
+	padding-top: 25%;
+}
+
+.settingChangeSuccess img {
+	width: 60px;
+	height: 60px;
+	vertical-align: middle;
+}
+
+.settingChangeSuccess p {
+	line-height: 35px;
+}
+
+.settingChangeSuccess p:first-of-type {
+	padding-top: 20px;
+	font-size: 16px;
+	color: #333;
+}
+
+.settingChangeSuccess p:last-of-type {
+	font-size: 12px;
+}
+
+/*提现成功页面 结束*/
+/*我的团队 开始*/
+.teamMain{
+	padding:10px;
+	overflow:hidden;
+}
+.teamItem{
+	background:#fff;
+	overflow:hidden;
+	margin-bottom:10px;
+	padding:10px;
+	float:left;
+	width:48%;
+	box-sizing:border-box;
+	display:block;
+}
+.teamItem:nth-of-type(2n){
+	float:right;
+}
+.teamItem a{
+	color:#333;
+}
+.teamItem img{
+	width:35px;
+	float:left;
+	display:block;
+	margin-right:10px;
+}
+.teamItem div{
+	padding-top:2px;
+}
+.teamItem div p{
+	line-height:26px;
+	font-size:16px;
+}
+.teamItem div p:first-of-type{
+	font-size:18px;
+}
+.teamItem div em{
+	color:#ff7323;
+	font-size:12px;
+}
+/*我的团队 结束*/
+/*直属团队 开始*/
+.teamLevelOneListMain{
+ padding:40px 10px 0;
+}
+.teamLevelOneListUl li{
+	overflow:hidden;
+	padding:10px 0;
+	position:relative;
+}
+.teamLevelOneListUl li.teamLevelOneNoData div{
+	padding:20% 0 0;
+}
+.teamLevelOneListUl li.teamLevelOneNoData div p{
+	line-height:50px;
+	font-size:16px !important;
+}
+.teamLevelOneListUl li>img{
+	width:30px;
+	height:30px;
+	float:left;
+	margin:10px 10px 0;
+	display:block;
+}
+.teamLevelOneListUl li div{
+	padding-left:50px;
+	padding-top:2px;
+	line-height:26px;
+    font-size:16px;
+}
+.teamLevelOneListUl li div p:last-of-type{
+	font-size:14px;
+}
+.teamLevelOneListUl li div a img{
+ width:30px;
+ height:30px;
+ position:absolute;
+ right:10px;
+ top:50%;
+ margin-top:-15px;
+ display:block;
+}
+.teamLevelOneTotal{
+	overflow:hidden;
+	height:40px;
+	line-height:41px;
+	padding:0 10px;
+	background:#f1f1f1;
+	position:fixed;
+	width:100%;
+	box-sizing:border-box;
+	left:0;
+	top:40px;
+	z-index: 9;
+}
+.teamLevelOneTotal span{
+	float:left;
+}
+.teamLevelOneTotal em{
+	float:right;
+}
+/*直属团队 结束*/
+/*间接团队 开始*/
+  .teamLevelTwoContainer{
+  	padding:40px 10px 0;
+  }
+  .teamLevelTwoListUl li{
+  	overflow: hidden;
+  	line-height:51px;
+  	overflow:hidden;
+  	height:50px;
+  	font-size:16px;
+  	
+  }
+  .teamLevelTwoListUl li.teamLevelTwoListNoData{
+    height:auto;	
+  }
+   .teamLevelTwoListUl li.teamLevelTwoListNoData div p{
+   	line-height:50px;
+   }
+  .teamLevelTwoListUl li>img{
+  	width:30px;
+	height:30px;
+	float:left;
+	margin:10px 10px 0;
+	display:block;
+  }
+   .teamLevelTwoListUl li em{
+   	padding-left:5px;
+   	color:#f33;
+   }
+/*间接团队 结束*/
+/*首页 按钮  开始*/
+/* .indexMenuHeaderTop{
+	height:120px;
+	background:url(../images/indexMenuBgImg.jpg) no-repeat center center;
+	background-size:100% 100%;
+	text-align:center;
+}
+.indexMenuHeaderTop p{
+	font-size:20px;
+	color:#fff;
+	padding:28px 0 2px;
+}
+.indexMenuHeaderTop p em{
+	font-size:14px;
+}
+.indexMenuHeaderTop div{
+	font-size:30px;
+	line-height:40px;
+	color:#fff;
+	font-family:'MyWebFont';
+}
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('../font/WebFont.woff2') format('woff2'),
+         url('../font/WebFont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.indexMenuHeaderSub{
+	overflow:hidden;
+	padding:10px 0;
+}
+.indexMenuHeaderSub>div{
+	width:50%;
+	float:left;
+	text-align: center;
+	line-height:25px;
+}
+.indexMenuHeaderSub>div p{
+	font-size:14px;
+	padding-top:5px;
+}
+.indexMenuHeaderSub>div p em{
+	font-size:12px;
+}
+.indexMenuHeaderSub>div div{
+	font-size:18px;
+	font-family: 'MyWebFont';
+	color:#ff8053;
+}
+.indexMenuBody a{
+	display:block;
+	width:33.333333333%;
+	font-size:14px;
+	text-align: center;
+	color:#333;
+	float:left;
+	padding:20px 0 20px;
+}
+.indexMenuBody a img{
+	width:40px;
+	height:40px;
+	vertical-align:middle;
+}
+.indexMenuBody a p{
+	padding-top:10px;
+}
+.collectImgTopRight{
+	position:absolute;
+	top:12%;
+	right:0;
+	z-index:99999;
+	width:28%;
+}
+
+@keyframes bounce {
+  from, 20%, 53%, 80%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    transform: translate3d(0,0,0);
+  }
+
+  40%, 43% {
+    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transform: translate3d(0, -30px, 0);
+  }
+
+  70% {
+    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transform: translate3d(0, -15px, 0);
+  }
+
+  90% {
+    transform: translate3d(0,-4px,0);
+  }
+}
+
+.bounce {
+  animation-name: bounce;
+  transform-origin: center bottom;
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  animation-iteration-count: infinite;
+} */
+/*首页 按钮 结束*/
+/*首页 按钮  开始*/
+.indexMenuHeaderTop{
+	height:150px;
+	background:url(../images/indexMenuBgImg.jpg) no-repeat center center;
+	background-size:100% 100%;
+	text-align:center;
+}
+.indexMenuHeaderTop p{
+	font-size:20px;
+	color:#fff;
+	padding:28px 0 2px;
+}
+.indexMenuHeaderTop p em{
+	font-size:14px;
+}
+.indexMenuHeaderTop div{
+	font-size:30px;
+	line-height:40px;
+	color:#fff;
+	font-family:'MyWebFont';
+}
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('../font/WebFont.woff2?1231321') format('woff2'),
+         url('../font/WebFont.woff?123131') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.indexMenuHeaderSub{
+	overflow:hidden;
+	padding:10px 0;
+	width:94%;
+	margin:-35px auto 0;
+	background:#fff;
+	
+}
+.indexMenuHeaderSub>div{
+	width:50%;
+	float:left;
+	text-align: center;
+	line-height:25px;
+}
+.indexMenuHeaderSub>div p{
+	font-size:14px;
+	padding-top:5px;
+}
+.indexMenuHeaderSub>div p em{
+	font-size:12px;
+}
+.indexMenuHeaderSub>div div{
+	font-size:18px;
+	font-family: 'MyWebFont';
+	color:#ff8053;
+}
+.indexMenuBody{
+	overflow:hidden;
+	background:#fff;
+	margin:10px auto 0;
+	width:94%;
+}
+.indexMenuBody a{
+	display:block;
+	width:25%;
+	font-size:14px;
+	text-align: center;
+	color:#333;
+	float:left;
+	padding:15px 0 10px;
+}
+.indexMenuBody a img{
+	width:35px;
+	height:35px;
+	vertical-align:middle;
+}
+.indexMenuBody a p{
+	padding-top:8px;
+}
+.collectImgTopRight{
+	position:absolute;
+	top:0;
+	right:0;
+	z-index:99999;
+	width:26%;
+}
+
+@keyframes bounce {
+  from, 20%, 53%, 80%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+    transform: translate3d(0,0,0);
+  }
+
+  40%, 43% {
+    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transform: translate3d(0, -30px, 0);
+  }
+
+  70% {
+    animation-timing-function: cubic-bezier(0.755, 0.050, 0.855, 0.060);
+    transform: translate3d(0, -15px, 0);
+  }
+
+  90% {
+    transform: translate3d(0,-4px,0);
+  }
+}
+
+.bounce {
+  animation-name: bounce;
+  transform-origin: center bottom;
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  animation-iteration-count: infinite;
+}
+.indexCodeMain{
+	padding-bottom:50px;
+}
+.indexCodeMain img{
+	display:block;
+}
+.arrButtonIcon{
+	width:50px;
+	margin:30px auto 10px;
+	display:block;
+}
+.footer_menu {
+	background:#fff;
+}
+/*首页 按钮 结束*/

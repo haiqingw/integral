@@ -1,0 +1,278 @@
+@charset 'utf-8';
+html,body{
+  font-family:"黑体";
+}
+.body_bg {
+  background: #f9f9f9;
+}
+.paddingBottom{
+  padding-bottom:70px;
+}
+.interval{
+  height:5px;
+  background:#f9f9f9;
+}
+img{
+  vertical-align:middle;
+  max-width:100%;
+}
+.flex{
+  display:flex;
+  flex-direction:row;
+}
+.ellipsis{
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+a.arrIcon{
+  position: relative;
+  padding-right:30px;
+}
+a.arrIcon::after{
+  content:'';
+  display: block;
+  width:8px;
+  height:8px;
+  border-right:1px solid #ccc;
+  border-bottom:1px solid #ccc;
+  transform:rotate(-45deg);
+  -webkit-transform:rotate(-45deg);
+  position: absolute;
+  right:10px;
+  top:50%;
+  margin-top:-5px;
+}
+/*1像素 边框 开始*/
+.line_bottom {
+  background-color: #fff;
+  border: none;
+  background-image: -webkit-linear-gradient(bottom, transparent 50%, #cccccc 50%);
+  background-image: linear-gradient(bottom, transparent 50%, #cccccc 50%);
+  background-size: 100% 1px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+.line_top {
+  border: none;
+  background-color: #fff;
+  background-image: -webkit-linear-gradient(top, transparent 50%, #cccccc 50%);
+  background-image: linear-gradient(top, transparent 50%, #cccccc 50%);
+  background-size: 100% 1px;
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+.line_left {
+  border: none;
+  background-image: -webkit-linear-gradient(left, transparent 30%, #cccccc 30%);
+  background-image: linear-gradient(left, transparent 30%, #cccccc 30%);
+  background-size: 1px 100%;
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+.line_right {
+  border: none;
+  background-image: -webkit-linear-gradient(right, transparent 50%, #cccccc 50%);
+  background-image: linear-gradient(right, transparent 50%, #cccccc 50%);
+  background-size: 1px 100%;
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+.line_bottom_right {
+  border: none;
+  background-image: -webkit-linear-gradient(bottom, transparent 50%, #cccccc 50%), -webkit-linear-gradient(right, transparent 50%, #cccccc 50%);
+  background-image: linear-gradient(bottom, transparent 50%, #cccccc 50%), linear-gradient(right, transparent 50%, #cccccc 50%);
+  background-size: 100% 1px, 1px 100%;
+  background-repeat: no-repeat, no-repeat;
+  background-position: left bottom, right top;
+}
+.line_right_fff {
+  border: none;
+  background-image: -webkit-linear-gradient(right, transparent 50%, #ffffff 50%);
+  background-image: linear-gradient(right, transparent 50%, #ffffff 50%);
+  background-size: 1px 100%;
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+.line_bottom_fff {
+  border: none;
+  background-image: -webkit-linear-gradient(bottom, transparent 50%, #ffffff 50%);
+  background-image: linear-gradient(bottom, transparent 50%, #ffffff 50%);
+  background-size: 100% 1px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+/*1像素 边框 结束*/
+.ColorRed{
+  color:#f33;
+}
+/*头部 开始*/
+.bg_body{
+  background:#f9f9f9;
+}
+.subPageHeader {
+  line-height: 30px;
+  color: #fff;
+}
+header {
+  width: 100%;
+  height: 40px;
+  line-height:42px;
+  box-sizing: border-box;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 99;
+  text-align: center;
+  background: #fff;
+  overflow:hidden;
+}
+header .searchDiv {
+  width: 90%;
+  height: 30px;
+  box-sizing: border-box;
+  background: #fff;
+  border-radius: 30px;
+  float: left;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+}
+header .searchDiv input {
+  width: 100%;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  border: none;
+  background: none;
+  padding-right: 30px;
+  box-sizing: border-box;
+}
+header .searchDiv a {
+  display: block;
+  width: 30px;
+  height: 25px;
+  position: absolute;
+  right: 15px;
+  top: 0;
+  text-align: right;
+  padding-top: 5px;
+}
+header .searchDiv a img {
+  width: 20px;
+}
+header a.classifyIcon {
+  float: right;
+  display: block;
+  width: 10%;
+  padding-top: 5px;
+  height: 30px;
+  box-sizing: border-box;
+  text-align: center;
+}
+header a.classifyIcon img {
+  width: 20px;
+  margin-left: 10px;
+}
+header a.headerLeftBtn {
+  display: block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+header a.headerLeftBtn img {
+  width: 20px;
+  position: relative;
+  top: -4px;
+  vertical-align: middle;
+}
+header a.headerRightBtn {
+  display: block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+header a.headerRightBtn img {
+  width: 20px;
+  position: relative;
+  top: 4px;
+  vertical-align: middle;
+}
+.paddingTop {
+  padding-top: 40px;
+}
+/*头部 结束*/
+/*底部导航 开始*/
+footer {
+  overflow: hidden;
+  height: 60px;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background:#f4f4f4;
+}
+footer a {
+  display: block;
+  padding-top: 10px;
+  width: 25%;
+  float: left;
+}
+footer a img {
+  width: 25px;
+  display: block;
+  margin: 0 auto;
+}
+footer a p {
+  line-height: 25px;
+  font-size: 12px;
+  color: #2c3333;
+  text-align: center;
+}
+/*底部导航 结束*/
+/*弹性盒模型 开始*/
+.flex {
+  display: -webkit-box;
+  /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+  display: -webkit-flex;
+  /* 新版本语法: Chrome 21+ */
+  display: flex;
+  /* 新版本语法: Opera 12.1, Firefox 22+ */
+}
+/*弹性盒模型 结束*/
+.loadingMain{
+  height:40px;
+  line-height:40px;
+  text-align:center;
+  font-size:14px;
+  color:#666;
+  padding-bottom:10px;
+}
+/* 暂无数据 */
+.noDataMain{
+  padding-top:20%;
+  text-align:center;
+}
+.noDataMain img{
+  width:100px;
+  height:100px;
+}
+.noDataMain p{
+  height:60px;
+  line-height:60px;
+  font-size:16px;
+}
+/* 数字字体 */
+@font-face {
+  font-family: "myWebFont";
+  src: url("../font/myWebFont.woff2") format("woff2"),
+       url("../font/myWebFont.woff") format("woff"),
+       url("../font/myWebFont.ttf") format("truetype"),
+       url("../font/myWebFont.svg") format("svg");
+}

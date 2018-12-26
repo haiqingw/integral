@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,initial-scale=1.0,width=device-width" />
+		<meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+		<title>{:C('webTitle')}</title>
+		<link rel="stylesheet" type="text/css" href="{:C('webPublic')}css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="{:C('webPublic')}css/common.css" />
+		<link rel="stylesheet" type="text/css" href="{:C('webPublic')}css/style.css" />
+		<script type="text/javascript" src="{:C('webPublic')}js/jquery-1.8.3.min.js"></script>
+		<script src="{:C('webPublic')}js/HomeCheck.js" type="text/javascript" charset="utf-8"></script>
+		<script src="{:C('webPublic')}js/layer.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+			<!--header start-->
+		<header class="subpageHeader line_bottom">
+			<a class="aBackBtn" href="javascript:history.go(-1)"><img src="{:C('webPublic')}images/backIcon.png" /></a>佣金记录<a style="position:absolute;top:0;right:0;padding-right:15px;color:#fff;" href="{:U('withdraw')}">立即提现 ></a></header>
+		<!--header end-->
+		<!--subpage start-->
+		<section class="subpageMain">
+			<div class="CommissionRecordContainer">
+				<div class="CommissionRecordHeaderContainer">
+				<div class="CommissionRecordHeader" style="padding:10px 10px 10px">
+				<div style="float:left;width:48.5%;background:#fff;border:1px solid #f9a020">
+					<h3>钱包余额(元)</h3>
+					<p style="color:#f33">{$balance}</p>
+				</div>
+				<div style="float:right;width:48.5%;background:#fff;border:1px solid #f9a020">
+					<h3>累计收益(元)</h3>
+					<p>{$sumSy}</p>
+				</div>
+				<div style="clear:both;"></div>
+				</div>
+				<div class="CommissionRecordTab line_bottom">
+					<a href="javascript:;" class="Selected">交易返现</a>
+					<a href="javascript:;">提现列表</a>
+				</div>
+				</div>
+				<div class="CommissionRecordMain">
+					<!--交易佣金-->
+					<div class="CommissionRecordList" style="display:block;">
+							<ul class="CommissionRecordListUl">
+							<volist id="vo" name="list">
+							<if condition="$vo.changeType eq 'P'">
+							<li class="line_bottom">
+							   <img src="{:C('webPublic')}images/CommissionRecord<if condition="$vo.level eq 1">One<else/>Two</if>Icon.png"/>
+							   <div class="CommissionRecordListDiv">
+							   	  <div>
+							   	  	<h3>{$vo.typeName}</h3>
+							   	  	<p>{$vo.remark}</p>
+							   	  </div>
+							   	  <div>
+							   	     <p>+{$vo.changeAmount}</p>
+							   	     <time>{$vo.createTime}</time>
+							   	  </div>
+							   </div>
+							</li>								
+							</if>
+							</volist>
+						</ul>
+					</div>
+					<!--升级佣金-->
+					<div class="CommissionRecordList">
+						<ul class="CommissionRecordListUl">
+							<volist id="vo" name="list">
+							<if condition="$vo.changeType eq 'T'">
+							<li class="line_bottom">
+							   <img src="{:C('webPublic')}images/CommissionRecord<if condition="$vo.level eq 1">One<else/>Two</if>Icon.png"/>
+							   <div class="CommissionRecordListDiv">
+							   	  <div>
+							   	  	<h3>{$vo.typeName}</h3>
+							   	  	<p>{$vo.remark}</p>
+							   	  </div>
+							   	  <div>
+							   	     <p class="green">-{$vo.changeAmount}</p>
+							   	     <time>{$vo.createTime}</time>
+							   	  </div>
+							   </div>
+							</li>
+							</if>
+							</volist>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<include file="Public/bottom"/>
+		</section>
+		<!--subpage end-->
+		<div class="overlazy"></div>
+	</body>
+	<script type="text/javascript">
+		$(function(){
+			var List = $('.CommissionRecordList');
+			$('.CommissionRecordTab a').click(function(){
+				$(this).addClass('Selected').siblings().removeClass('Selected');
+				var i = $(this).index();
+				List.hide();
+				List[i].style.display = 'block';
+			})
+		})
+	</script>
+</html>

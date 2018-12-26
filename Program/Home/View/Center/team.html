@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,initial-scale=1.0,width=device-width" />
+		<meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+		<title>{:C('webTitle')}</title>
+		<link rel="stylesheet" type="text/css" href="{:C('webPublic')}css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="{:C('webPublic')}css/common.css" />
+		<link rel="stylesheet" type="text/css" href="{:C('webPublic')}css/style.css" />
+		<script type="text/javascript" src="{:C('webPublic')}js/jquery-1.8.3.min.js"></script>
+	</head>
+	<body class="grayBg">
+	   	<!--header start-->
+		<header class="subpageHeader">
+			<a class="aBackBtn" href="{:U('index')}"><img src="{:C('webPublic')}images/backIcon.png" /></a>我的团队</header>
+		<!--header end-->
+		<!--subpage start-->
+		<section class="subpageMain">
+			<div class="teamContainer">
+				<div class="teamHeader">
+					<img src="{:C('webPublic')}images/teamHeaderIMg.jpg"/>
+				</div>
+				<div class="teamMain">
+					<div class="teamItem">
+						<a href="{:U('teamLevelOne')}">
+					   <img src="{:C('webPublic')}images/teamLevelOneImg.jpg"/>
+					   <div>
+					   	 <p>直属团队</p>
+					   	 <p>{$oneCts}人</p>
+					   	 <em>点击查看</em>
+					   </div>
+					   </a>
+					</div>
+					<div class="teamItem">
+						<a href="{:U('teamLevelTwo')}">
+					   <img src="{:C('webPublic')}images/teamLevelTwoImg.jpg"/>
+					   <div>
+					   	 <p>二级团队</p>
+					   	 <p>{$twoCts}人</p>
+					   	 <em>点击查看</em>
+					   </div>
+					  </a>
+					</div>
+					<div class="teamItem">
+						<a href="{:U('teamLevelThree')}">
+					   <img src="{:C('webPublic')}images/teamLevelTwoImg.jpg"/>
+					   <div>
+					   	 <p>三级团队</p>
+					   	 <p>{$threeCts}人</p>
+					   	 <em>点击查看</em>
+					   </div>
+					   </a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--subpage end-->
+	</body>
+</html>

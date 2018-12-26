@@ -1,0 +1,5 @@
+[Success][2018-11-01 09:20:42]账号【ceshiadmin】帐号验证通过！[Admin/Login/logincheck]
+[Success][2018-11-01 09:20:52]账号【system】帐号验证通过！[Admin/Login/logincheck]
+[Success][2018-11-01 15:06:47]账号【system】帐号验证通过！[Admin/Login/logincheck]
+[Success][2018-11-01 17:30:43]用户名为：System于 2018-11-01 17:30:43 IP为： 192.168.31.243添加权限名称为 Logo列表保存成功[Admin/Auth/authaddfunction]
+[Success][2018-11-01 17:52:50]用户名为：System于 2018-11-01 17:52:50 IP为： 192.168.31.243更改权限名称成功[Admin/Auth/authmodifyfunction]
